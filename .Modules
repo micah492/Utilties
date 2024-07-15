@@ -127,6 +127,41 @@ function module:GetTeam(teamName)
                 }
             },
         }	
+ elseif (string.lower(teamName) == "coastal") then
+        return {
+            City = "Coastal Carolina",
+            Name = "Chanticleers",
+            Abbreviation = "CCU",
+            Colors = {
+                Normal = {
+                    Main = "#006F71",
+                    Light = "#A27752"
+                },
+                Alternate = {
+                    Main = "#A27752",
+                    Light = "#111111"
+                },
+                Endzone = "#006F71",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#111111",
+                        NumberStroke = "#FFFFFF",
+                        Helmet = "#111111",
+                        Jersey = "#006F71",
+                        Stripe = "#A27752",
+                        Pants = "#006F71"
+                    },
+                    Away = {
+                        NumberInner = "#006F71",
+                        NumberStroke = "#111111",
+                        Helmet = "#FFFFFF",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#FFFFFF",
+                        Pants = "#006F71"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "florida") then
         return {
             City = "Florida",

@@ -92,6 +92,41 @@ function module:GetTeam(teamName)
                 }
             },
         }
+elseif (string.lower(teamName) == "illinois") then
+        return {
+            City = "Illinois",
+            Name = "Fighting Illini",
+            Abbreviation = "ILL",
+            Colors = {
+                Normal = {
+                    Main = "#E84A27",
+                    Light = "#13294B"
+                },
+                Alternate = {
+                    Main = "#13294B",
+                    Light = "#E84A27"
+                },
+                Endzone = "#E84A27",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#E84A27",
+                        Helmet = "#E84A27",
+                        Jersey = "#13294B",
+                        Stripe = "#13294B",
+                        Pants = "#E84A27"
+                    },
+                    Away = {
+                        NumberInner = "#E84A27",
+                        NumberStroke = "#E84A27",
+                        Helmet = "#FFFFFF",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#FFFFFF",
+                        Pants = "#FFFFFF"
+                    }
+                }
+            },
+        }	
     elseif (string.lower(teamName) == "usc") then
         return {
             City = "USC",

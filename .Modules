@@ -302,6 +302,41 @@ elseif (string.lower(teamName) == "michigan") then
                 }
             },
         }
+ elseif (string.lower(teamName) == "minnesota") then
+        return {
+            City = "Minnesota",
+            Name = "Golden Gophers",
+            Abbreviation = "MINN",
+            Colors = {
+                Normal = {
+                    Main = "#7A0019",
+                    Light = "#FFCC33"
+                },
+                Alternate = {
+                    Main = "#FFCC33",
+                    Light = "#7A0019"
+                },
+                Endzone = "#7A0019",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#FFCC33",
+                        Helmet = "#7A0019",
+                        Jersey = "#7A0019",
+                        Stripe = "#7A0019",
+                        Pants = "#7A0019"
+                    },
+                    Away = {
+                        NumberInner = "#7A0019",
+                        NumberStroke = "#FFCC33",
+                        Helmet = "#FFFFFF",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#FFFFFF",
+                        Pants = "#FFFFFF"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "washington state") then
         return {
             City = "Washington State",
@@ -333,6 +368,76 @@ elseif (string.lower(teamName) == "michigan") then
                         Jersey = "#FFFFFF",
                         Stripe = "#981E32",
                         Pants = "#FFFFFF"
+                    }
+                }
+            },
+        }
+elseif (string.lower(teamName) == "oregon") then
+        return {
+            City = "Oregon",
+            Name = "Ducks",
+            Abbreviation = "ORE",
+            Colors = {
+                Normal = {
+                    Main = "#154733",
+                    Light = "#FEE123"
+                },
+                Alternate = {
+                    Main = "#FEE123",
+                    Light = "#154733"
+                },
+                Endzone = "#154733",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FEE123",
+                        NumberStroke = "#FEE123",
+                        Helmet = "#154733",
+                        Jersey = "#154733",
+                        Stripe = "#154733",
+                        Pants = "#154733"
+                    },
+                    Away = {
+                        NumberInner = "#154733",
+                        NumberStroke = "#154733",
+                        Helmet = "#154733",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#FFFFFF",
+                        Pants = "#FFFFFF"
+                    }
+                }
+            },
+        }
+elseif (string.lower(teamName) == "nebraska") then
+        return {
+            City = "Nebraska",
+            Name = "Cornhuskers",
+            Abbreviation = "NEB",
+            Colors = {
+                Normal = {
+                    Main = "#E41C38",
+                    Light = "#FFFFFF"
+                },
+                Alternate = {
+                    Main = "#FFFFFF",
+                    Light = "#E41C38"
+                },
+                Endzone = "#E41C38",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#FFFFFF",
+                        Helmet = "#FFFFFF",
+                        Jersey = "#E41C38",
+                        Stripe = "#FFFFFF",
+                        Pants = "#FFFFFF"
+                    },
+                    Away = {
+                        NumberInner = "#E41C38",
+                        NumberStroke = "#E41C38",
+                        Helmet = "#FFFFFF",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#E41C38",
+                        Pants = "#E41C38"
                     }
                 }
             },

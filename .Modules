@@ -122,7 +122,7 @@ elseif (string.lower(teamName) == "iowa") then
                         Helmet = "#000000",
                         Jersey = "#FFFFFF",
                         Stripe = "#FFCD00",
-                        Pants = "#C1133D"
+                        Pants = "#FFCD00"
                     }
                 }
             },

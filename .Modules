@@ -92,6 +92,41 @@ function module:GetTeam(teamName)
                 }
             },
         }
+elseif (string.lower(teamName) == "iowa") then
+        return {
+            City = "Iowa",
+            Name = "Hawkeyes",
+            Abbreviation = "IOWA",
+            Colors = {
+                Normal = {
+                    Main = "#FFCD00",
+                    Light = "#000000"
+                },
+                Alternate = {
+                    Main = "#000000",
+                    Light = "#FFCD00"
+                },
+                Endzone = "#FFCD00",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#FFFFFF",
+                        Helmet = "#000000",
+                        Jersey = "#000000",
+                        Stripe = "#FFCD00",
+                        Pants = "#FFCD00"
+                    },
+                    Away = {
+                        NumberInner = "#000000",
+                        NumberStroke = "#000000",
+                        Helmet = "#000000",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#FFCD00",
+                        Pants = "#C1133D"
+                    }
+                }
+            },
+        }
 elseif (string.lower(teamName) == "illinois") then
         return {
             City = "Illinois",

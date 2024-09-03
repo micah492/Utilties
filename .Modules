@@ -127,6 +127,41 @@ elseif (string.lower(teamName) == "iowa") then
                 }
             },
         }
+elseif (string.lower(teamName) == "sdsu") then
+        return {
+            City = "South Dakota State",
+            Name = "Jackrabbits",
+            Abbreviation = "SDSU",
+            Colors = {
+                Normal = {
+                    Main = "#0033A0",
+                    Light = "#FFD100"
+                },
+                Alternate = {
+                    Main = "#FFD100",
+                    Light = "#0033A0"
+                },
+                Endzone = "#0033A0",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#FFD100",
+                        Helmet = "#0033A0",
+                        Jersey = "#0033A0",
+                        Stripe = "#FFD100",
+                        Pants = "#0033A0"
+                    },
+                    Away = {
+                        NumberInner = "#0033A0",
+                        NumberStroke = "#FFD100",
+                        Helmet = "#0033A0",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#FFFFFF",
+                        Pants = "#FFFFFF"
+                    }
+                }
+            },
+        }
 elseif (string.lower(teamName) == "illinois") then
         return {
             City = "Illinois",

@@ -806,15 +806,15 @@ elseif (string.lower(teamName) == "nebraska") then
                     Main = "#1E4D2B",
                     Light = "#3D9C58"
                 },
-                Endzone = "#032e59",
+                Endzone = "#00843D",
                 Jersey = {
                     Home = {
-                        NumberInner = "#FFFFFF",
+                        NumberInner = "#0C2340",
                         NumberStroke = "#C99700",
                         Helmet = "#C99700",
-                        Jersey = "#0C2340",
-                        Stripe = "#0C2340",
-                        Pants = "#C99700"
+                        Jersey = "#00843D",
+                        Stripe = "#C99700",
+                        Pants = "#00843D"
                     },
                     Away = {
                         NumberInner = "#0C2340",

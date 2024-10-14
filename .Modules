@@ -127,6 +127,41 @@ elseif (string.lower(teamName) == "iowa") then
                 }
             },
         }
+elseif (string.lower(teamName) == "colorado") then
+        return {
+            City = "Colorado",
+            Name = "Buffaloes",
+            Abbreviation = "COLO",
+            Colors = {
+                Normal = {
+                    Main = "#CFB87C",
+                    Light = "#000000"
+                },
+                Alternate = {
+                    Main = "#000000",
+                    Light = "#CFB87C"
+                },
+                Endzone = "#CFB87C",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#CFB87C",
+                        Helmet = "#CFB87C",
+                        Jersey = "#000000",
+                        Stripe = "#000000",
+                        Pants = "#000000"
+                    },
+                    Away = {
+                        NumberInner = "#CFB87C",
+                        NumberStroke = "#000000",
+                        Helmet = "#FFFFFF",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#FFFFFF",
+                        Pants = "#FFFFFF"
+                    }
+                }
+            },
+        }
 elseif (string.lower(teamName) == "sdsu") then
         return {
             City = "South Dakota State",

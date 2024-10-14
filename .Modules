@@ -652,6 +652,41 @@ elseif (string.lower(teamName) == "nebraska") then
                 }
             },
         }
+    elseif (string.lower(teamName) == "oklahoma") then
+        return {
+            City = "Oklahoma",
+            Name = "Sooners",
+            Abbreviation = "OKLA",
+            Colors = {
+                Normal = {
+                    Main = "#841617",
+                    Light = "#FDF9D8"
+                },
+                Alternate = {
+                    Main = "#FDF9D8",
+                    Light = "#841617"
+                },
+                Endzone = "#841617",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#FFFFFF",
+                        Helmet = "#841617",
+                        Jersey = "#841617",
+                        Stripe = "#FFFFFF",
+                        Pants = "#841617"
+                    },
+                    Away = {
+                        NumberInner = "#841617",
+                        NumberStroke = "#841617",
+                        Helmet = "#841617",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#FFFFFF",
+                        Pants = "#841617"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "hawaii") then
         return {
             City = "Hawaii",

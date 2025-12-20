@@ -225,6 +225,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "new york") then
+		return {
+			City = "New York",
+			Name = "NEW YORK",
+			Abbreviation = "NY",
+			Colors = {
+				Normal = {
+					Main = "#439bce",
+					Light = "#fdffff"
+				},
+				Alternate = {
+					Main = "#fdffff",
+					Light = "#439bce"
+				},
+				Endzone = "#439bce",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#439bce",
+						Jersey = "#439bce",
+						Stripe = "#439bce",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#439bce",
+						NumberStroke = "#439bce",
+						Helmet = "#439bce",
+						Jersey = "#FFFFFF",
+						Stripe = "#439bce",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 elseif (string.lower(teamName) == "missouri") then
 		return {
 			City = "Missouri",

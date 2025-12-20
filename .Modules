@@ -190,6 +190,41 @@ City = "New York",
 				}
 			},
 		}
+elseif (string.lower(teamName) == "missouri") then
+		return {
+			City = "Missouri",
+			Name = "Tigers",
+			Abbreviation = "MIZZ",
+			Colors = {
+				Normal = {
+					Main = "#F1B82D",
+					Light = "#000000"
+				},
+				Alternate = {
+					Main = "#000000",
+					Light = "#F1B82D"
+				},
+				Endzone = "#F1B82D",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#F1B82D",
+						Helmet = "#000000",
+						Jersey = "#000000",
+						Stripe = "#F1B82D",
+						Pants = "#000000"
+					},
+					Away = {
+						NumberInner = "#000000",
+						NumberStroke = "#F1B82D",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#F1B82D",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "washington state") then
 		return {
 			City = "Washington State",

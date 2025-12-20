@@ -295,6 +295,41 @@ elseif (string.lower(teamName) == "missouri") then
 				}
 			},
 		}
+    elseif (string.lower(teamName) == "usc") then
+        return {
+            City = "USC",
+            Name = "Trojans",
+            Abbreviation = "USC",
+            Colors = {
+                Normal = {
+                    Main = "#990000",
+                    Light = "#FF4E51"
+                },
+                Alternate = {
+                    Main = "#FFC72C",
+                    Light = "#FFE969"
+                },
+                Endzone = "#a80532",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFC72C",
+                        NumberStroke = "#990000",
+                        Helmet = "#990000",
+                        Jersey = "#990000",
+                        Stripe = "#FFC72C",
+                        Pants = "#FFC72C"
+                    },
+                    Away = {
+                        NumberInner = "#990000",
+                        NumberStroke = "#FFFFFF",
+                        Helmet = "#990000",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#990000",
+                        Pants = "#FFC72C"
+                    }
+                }
+            },
+        }
 	elseif (string.lower(teamName) == "clemson") then
 		return {
 			City = "Clemson",

@@ -85,10 +85,10 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
-	elseif (string.lower(teamName) == "empires") then
+	elseif (string.lower(teamName) == "new york") then
 		return {
-City = "New York",
-			Name = "Empires",
+			City = "New York",
+			Name = "NEW YORK",
 			Abbreviation = "NY",
 			Colors = {
 				Normal = {

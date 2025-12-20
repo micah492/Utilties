@@ -85,10 +85,10 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
-	elseif (string.lower(teamName) == "new york") then
+	elseif (string.lower(teamName) == "empires") then
 		return {
 			City = "New York",
-			Name = "NEW YORK",
+			Name = "Empires",
 			Abbreviation = "NY",
 			Colors = {
 				Normal = {
@@ -197,27 +197,27 @@ function module:GetTeam(teamName)
 			Abbreviation = "ROC",
 			Colors = {
 				Normal = {
-					Main = "#ff0127",
+					Main = "#d4000b",
 					Light = "#48484a"
 				},
 				Alternate = {
 					Main = "#48484a",
-					Light = "#ff0127"
+					Light = "#d4000b"
 				},
-				Endzone = "#ff0127",
+				Endzone = "#d4000b",
 				Jersey = {
 					Home = {
 						NumberInner = "#FFFFFF",
 						NumberStroke = "#48484a",
-						Helmet = "#ff0127",
-						Jersey = "#ff0127",
+						Helmet = "#d4000b",
+						Jersey = "#d4000b",
 						Stripe = "#FFFFFF",
 						Pants = "#FFFFFF"
 					},
 					Away = {
-						NumberInner = "#ff0127",
+						NumberInner = "#d4000b",
 						NumberStroke = "#48484a",
-						Helmet = "#ff0127",
+						Helmet = "#d4000b",
 						Jersey = "#FFFFFF",
 						Stripe = "#48484a",
 						Pants = "#FFFFFF"

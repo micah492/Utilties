@@ -232,29 +232,29 @@ function module:GetTeam(teamName)
 			Abbreviation = "NY",
 			Colors = {
 				Normal = {
-					Main = "#439bce",
+					Main = "#325ed1",
 					Light = "#fdffff"
 				},
 				Alternate = {
 					Main = "#fdffff",
-					Light = "#439bce"
+					Light = "#325ed1"
 				},
-				Endzone = "#439bce",
+				Endzone = "#325ed1",
 				Jersey = {
 					Home = {
 						NumberInner = "#FFFFFF",
 						NumberStroke = "#FFFFFF",
-						Helmet = "#439bce",
-						Jersey = "#439bce",
-						Stripe = "#439bce",
+						Helmet = "#325ed1",
+						Jersey = "#325ed1",
+						Stripe = "#325ed1",
 						Pants = "#FFFFFF"
 					},
 					Away = {
-						NumberInner = "#439bce",
-						NumberStroke = "#439bce",
-						Helmet = "#439bce",
+						NumberInner = "#325ed1",
+						NumberStroke = "#325ed1",
+						Helmet = "#325ed1",
 						Jersey = "#FFFFFF",
-						Stripe = "#439bce",
+						Stripe = "#325ed1",
 						Pants = "#FFFFFF"
 					}
 				}

@@ -217,9 +217,9 @@ function module:GetTeam(teamName)
 					Away = {
 						NumberInner = "#ff0127",
 						NumberStroke = "#48484a",
-						Helmet = "#FFFFFF",
+						Helmet = "#ff0127",
 						Jersey = "#FFFFFF",
-						Stripe = "#FFFFFF",
+						Stripe = "#48484a",
 						Pants = "#FFFFFF"
 					}
 				}

@@ -190,6 +190,41 @@ City = "New York",
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "rochester") then
+		return {
+			City = "Rochester",
+			Name = "ROCHESTER",
+			Abbreviation = "ROC",
+			Colors = {
+				Normal = {
+					Main = "#ff0127",
+					Light = "#48484a"
+				},
+				Alternate = {
+					Main = "#48484a",
+					Light = "#ff0127"
+				},
+				Endzone = "#ff0127",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#ff0127",
+						Helmet = "#ff0127",
+						Jersey = "#48484a",
+						Stripe = "#48484a",
+						Pants = "#ff0127"
+					},
+					Away = {
+						NumberInner = "#ff0127",
+						NumberStroke = "#48484a",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#ff0127",
+						Pants = "#48484a"
+					}
+				}
+			},
+		}
 elseif (string.lower(teamName) == "missouri") then
 		return {
 			City = "Missouri",

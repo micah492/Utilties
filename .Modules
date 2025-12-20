@@ -219,8 +219,8 @@ function module:GetTeam(teamName)
 						NumberStroke = "#48484a",
 						Helmet = "#FFFFFF",
 						Jersey = "#FFFFFF",
-						Stripe = "#ff0127",
-						Pants = "#48484a"
+						Stripe = "#FFFFFF",
+						Pants = "#FFFFFF"
 					}
 				}
 			},

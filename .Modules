@@ -87,7 +87,7 @@ function module:GetTeam(teamName)
 		}
 	elseif (string.lower(teamName) == "empires") then
 		return {
-			City = "New York",
+            City = "New York",
 			Name = "Empires",
 			Abbreviation = "NY",
 			Colors = {
@@ -155,6 +155,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}	
+	elseif (string.lower(teamName) == "honolulu") then
+		return {
+			City = "Honolulu",
+			Name = "HONOLULU",
+			Abbreviation = "HON",
+			Colors = {
+				Normal = {
+					Main = "#43826e",
+					Light = "#fcfffd"
+				},
+				Alternate = {
+					Main = "#fcfffd",
+					Light = "#43826e"
+				},
+				Endzone = "#43826e",
+				Jersey = {
+					Home = {
+						NumberInner = "#fcfffd",
+						NumberStroke = "#43826e",
+						Helmet = "#43826e",
+						Jersey = "#43826e",
+						Stripe = "#43826e",
+						Pants = "#fcfffd"
+					},
+					Away = {
+						NumberInner = "#43826e",
+						NumberStroke = "#fcfffd",
+						Helmet = "#fcfffd",
+						Jersey = "#fcfffd",
+						Stripe = "#fcfffd",
+						Pants = "#43826e"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "provo") then
 		return {
 			City = "Provo",

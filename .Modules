@@ -400,6 +400,41 @@ elseif (string.lower(teamName) == "missouri") then
 				}
 			},
 		}
+    elseif (string.lower(teamName) == "florida") then
+        return {
+            City = "Florida",
+            Name = "Gators",
+            Abbreviation = "FLA",
+            Colors = {
+                Normal = {
+                    Main = "#0021A5",
+                    Light = "#304FFF"
+                },
+                Alternate = {
+                    Main = "#FA4616",
+                    Light = "#FF7D32"
+                },
+                Endzone = "#ff4d25",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#FA4616",
+                        Helmet = "#FA4616",
+                        Jersey = "#0021A5",
+                        Stripe = "#FA4616",
+                        Pants = "#FFFFFF"
+                    },
+                    Away = {
+                        NumberInner = "#0021A5",
+                        NumberStroke = "#FA4616",
+                        Helmet = "#FA4616",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#0021A5",
+                        Pants = "#0021A5"
+                    }
+                }
+            },
+        }
 	elseif (string.lower(teamName) == "byu") then
 		return {
 			City = "Brigham Young University",

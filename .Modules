@@ -155,6 +155,76 @@ function module:GetTeam(teamName)
 				}
 			},
 		}	
+	elseif (string.lower(teamName) == "provo") then
+		return {
+			City = "Provo",
+			Name = "PROVO",
+			Abbreviation = "PRO",
+			Colors = {
+				Normal = {
+					Main = "#122a4d",
+					Light = "#8eb0cb"
+				},
+				Alternate = {
+					Main = "#8eb0cb",
+					Light = "#122a4d"
+				},
+				Endzone = "#122a4d",
+				Jersey = {
+					Home = {
+						NumberInner = "#8aaecc",
+						NumberStroke = "#ffffff",
+						Helmet = "#f8f8f8",
+						Jersey = "#122a4d",
+						Stripe = "#122a4d",
+						Pants = "#f8f8f8"
+					},
+					Away = {
+						NumberInner = "#990000",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#033c8c",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}	
+	elseif (string.lower(teamName) == "long beach") then
+		return {
+			City = "Long Beach",
+			Name = "LONG BEACH",
+			Abbreviation = "LB",
+			Colors = {
+				Normal = {
+					Main = "#30aefd",
+					Light = "#ffb802"
+				},
+				Alternate = {
+					Main = "#035897",
+					Light = "#2ba7f3"
+				},
+				Endzone = "#30aefd",
+				Jersey = {
+					Home = {
+						NumberInner = "#feb800",
+						NumberStroke = "#ffffff",
+						Helmet = "#f8f8f8",
+						Jersey = "#30b0fd",
+						Stripe = "#30b0fd",
+						Pants = "#f8f8f8"
+					},
+					Away = {
+						NumberInner = "#29a2ef",
+						NumberStroke = "#ffb902",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#2faffe",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}	
 	elseif (string.lower(teamName) == "jacksonville") then
 		return {
 			City = "Jacksonville",

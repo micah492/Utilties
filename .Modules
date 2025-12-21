@@ -365,7 +365,7 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
-elseif (string.lower(teamName) == "missouri") then
+	elseif (string.lower(teamName) == "missouri") then
 		return {
 			City = "Missouri",
 			Name = "Tigers",
@@ -1730,7 +1730,7 @@ elseif (string.lower(teamName) == "missouri") then
 				}
 			},
 		}
-elseif (string.lower(teamName) == "oklahoma") then
+	elseif (string.lower(teamName) == "oklahoma") then
         return {
             City = "Oklahoma",
             Name = "Sooners",
@@ -1765,7 +1765,7 @@ elseif (string.lower(teamName) == "oklahoma") then
                 }
             },
         }
-elseif (string.lower(teamName) == "oregon") then
+	elseif (string.lower(teamName) == "oregon") then
         return {
             City = "Oregon",
             Name = "Ducks",

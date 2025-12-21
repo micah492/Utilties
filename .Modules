@@ -180,8 +180,8 @@ function module:GetTeam(teamName)
 						Pants = "#f8f8f8"
 					},
 					Away = {
-						NumberInner = "#990000",
-						NumberStroke = "#FFFFFF",
+						NumberInner = "#033c8c",
+						NumberStroke = "#10263d",
 						Helmet = "#FFFFFF",
 						Jersey = "#FFFFFF",
 						Stripe = "#033c8c",

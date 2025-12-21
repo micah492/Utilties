@@ -443,7 +443,7 @@ function module:GetTeam(teamName)
             Colors = {
                 Normal = {
                     Main = "#0021A5",
-                    Light = "#304FFF"
+                    Light = "#fa4a1b"
                 },
                 Alternate = {
                     Main = "#FA4616",

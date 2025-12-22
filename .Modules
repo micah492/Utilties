@@ -85,10 +85,45 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
-	elseif (string.lower(teamName) == "empires") then
+elseif (string.lower(teamName) == "seattle") then
 		return {
-            City = "New York",
-			Name = "Empires",
+			City = "Seattle",
+			Name = "Seattle",
+			Abbreviation = "SEA",
+			Colors = {
+				Normal = {
+					Main = "#181c33",
+					Light = "#293263"
+				},
+				Alternate = {
+					Main = "#99c951",
+					Light = "#96d13e"
+				},
+				Endzone = "#181c33",
+				Jersey = {
+					Home = {
+						NumberInner = "#9fa3a7",
+						NumberStroke = "#99c951",
+						Helmet = "#181c33",
+						Jersey = "#181c33",
+						Stripe = "#99c951",
+						Pants = "#9fa3a7"
+					},
+					Away = {
+						NumberInner = "#181c33",
+						NumberStroke = "#99c951",
+						Helmet = "#181c33",
+						Jersey = "#ffffff",
+						Stripe = "#181c33",
+						Pants = "#ffffff"
+					}
+				}
+			},
+		}
+	elseif (string.lower(teamName) == "empire") then
+		return {
+			City = "New York",
+			Name = "Empire",
 			Abbreviation = "NY",
 			Colors = {
 				Normal = {
@@ -155,6 +190,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}	
+elseif (string.lower(teamName) == "oakland") then
+		return {
+			City = "Oakland",
+			Name = "Oakland",
+			Abbreviation = "OAK",
+			Colors = {
+				Normal = {
+					Main = "#075aa0",
+					Light = "#293263"
+				},
+				Alternate = {
+					Main = "#f7b214",
+					Light = "#fcbf30"
+				},
+				Endzone = "#99c951",
+				Jersey = {
+					Home = {
+						NumberInner = "#f7b214",
+						NumberStroke = "#fcbf30",
+						Helmet = "#f7b214",
+						Jersey = "#075aa0",
+						Stripe = "#fcbf30",
+						Pants = "#f7b214"
+					},
+					Away = {
+						NumberInner = "#075aa0",
+						NumberStroke = "#f7b214",
+						Helmet = "#f7b214",
+						Jersey = "#FFFFFF",
+						Stripe = "#f7b214",
+						Pants = "#075aa0"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "honolulu") then
 		return {
 			City = "Honolulu",

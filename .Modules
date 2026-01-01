@@ -137,20 +137,20 @@ elseif (string.lower(teamName) == "seattle") then
 			Endzone = "#2D68C4",
 			Jersey = {
 				Home = {
-					NumberInner = "#FFD100",
-					NumberStroke = "#2D68C4",
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#FFD100",
 					Helmet = "#2D68C4",
 					Jersey = "#2D68C4",
 					Stripe = "#FFD100",
-					Pants = "#2D68C4"
+					Pants = "#FFD100"
 				},
 				Away = {
 					NumberInner = "#2D68C4",
 					NumberStroke = "#FFD100",
-					Helmet = "#2D68C4",
+					Helmet = "#FFFFFF",
 					Jersey = "#FFFFFF",
 					Stripe = "#2D68C4",
-					Pants = "#FFFFFF"
+					Pants = "#FFD100"
 				}
 			}
 		},

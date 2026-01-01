@@ -120,6 +120,41 @@ elseif (string.lower(teamName) == "seattle") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "ucla") then
+	return {
+		City = "UCLA",
+		Name = "Bruins",
+		Abbreviation = "UCLA",
+		Colors = {
+			Normal = {
+				Main = "#2D68C4",
+				Light = "#5A9BD5"
+			},
+			Alternate = {
+				Main = "#FFD100",
+				Light = "#FFE566"
+			},
+			Endzone = "#2D68C4",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFD100",
+					NumberStroke = "#2D68C4",
+					Helmet = "#2D68C4",
+					Jersey = "#2D68C4",
+					Stripe = "#FFD100",
+					Pants = "#2D68C4"
+				},
+				Away = {
+					NumberInner = "#2D68C4",
+					NumberStroke = "#FFD100",
+					Helmet = "#2D68C4",
+					Jersey = "#FFFFFF",
+					Stripe = "#2D68C4",
+					Pants = "#FFFFFF"
+				}
+			}
+		},
+	}
 	elseif (string.lower(teamName) == "empire") then
 		return {
 			City = "New York",

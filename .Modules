@@ -1734,7 +1734,7 @@ elseif (string.lower(teamName) == "oakland") then
 		return {
 			City = "Maryland",
 			Name = "Terrapins",
-			Abbreviation = "UW",
+			Abbreviation = "UMD",
 			Colors = {
 				Normal = {
 					Main = "#E03A3E",

@@ -1138,7 +1138,7 @@ elseif (string.lower(teamName) == "georgia") then
 					Main = "#808080",
 					Light = "#ABABAB"
 				},
-				Endzone = "#000000",
+				Endzone = "#cc0033",
 				Jersey = {
 					Home = {
 						NumberInner = "#FFFFFF",

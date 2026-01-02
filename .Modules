@@ -85,6 +85,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+elseif (string.lower(teamName) == "south carolina") then
+	return {
+		City = "South Carolina",
+		Name = "Gamecocks",
+		Abbreviation = "SC",
+		Colors = {
+			Normal = {
+				Main = "#73000A",
+				Light = "#A50F1C"
+			},
+			Alternate = {
+				Main = "#000000",
+				Light = "#333333"
+			},
+			Endzone = "#73000A",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#000000",
+					Helmet = "#73000A",
+					Jersey = "#73000A",
+					Stripe = "#FFFFFF",
+					Pants = "#73000A"
+				},
+				Away = {
+					NumberInner = "#73000A",
+					NumberStroke = "#000000",
+					Helmet = "#FFFFFF",
+					Jersey = "#FFFFFF",
+					Stripe = "#73000A",
+					Pants = "#FFFFFF"
+				}
+			}
+		},
+	}
 elseif (string.lower(teamName) == "seattle") then
 		return {
 			City = "Seattle",

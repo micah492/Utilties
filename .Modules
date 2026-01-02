@@ -171,6 +171,41 @@ elseif (string.lower(teamName) == "south carolina") then
 			}
 		},
 	}
+elseif (string.lower(teamName) == "alabama") then
+	return {
+		City = "Alabama",
+		Name = "Crimson Tide",
+		Abbreviation = "BAMA",
+		Colors = {
+			Normal = {
+				Main = "#9E1B32",
+				Light = "#C8102E"
+			},
+			Alternate = {
+				Main = "#828A8F",
+				Light = "#A3A9AC"
+			},
+			Endzone = "#9E1B32",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#9E1B32",
+					Helmet = "#9E1B32",
+					Jersey = "#9E1B32",
+					Stripe = "#FFFFFF",
+					Pants = "#FFFFFF"
+				},
+				Away = {
+					NumberInner = "#9E1B32",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#9E1B32",
+					Jersey = "#FFFFFF",
+					Stripe = "#9E1B32",
+					Pants = "#FFFFFF"
+				}
+			}
+		},
+	}
 elseif (string.lower(teamName) == "seattle") then
 		return {
 			City = "Seattle",

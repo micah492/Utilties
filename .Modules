@@ -766,6 +766,49 @@ elseif (string.lower(teamName) == "oakland") then
 				}
 			},
 		}
+elseif (string.lower(teamName) == "georgia") then
+	return {
+		City = "Georgia",
+		Name = "Bulldogs",
+		Abbreviation = "UGA",
+		Colors = {
+			Normal = {
+				Main = "#BA0C2F",
+				Light = "#E03E52"
+			},
+			Alternate = {
+				Main = "#000000",
+				Light = "#333333"
+			},
+			Endzone = "#BA0C2F",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#000000",
+					Helmet = "#BA0C2F",
+					Jersey = "#BA0C2F",
+					Stripe = "#BA0C2F",
+					Pants = "#C5C6C8"
+				},
+				Away = {
+					NumberInner = "#BA0C2F",
+					NumberStroke = "#000000",
+					Helmet = "#BA0C2F",
+					Jersey = "#FFFFFF",
+					Stripe = "#BA0C2F",
+					Pants = "#C5C6C8"
+				},
+				Alternate = {
+					NumberInner = "#BA0C2F",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#000000",
+					Jersey = "#000000",
+					Stripe = "#BA0C2F",
+					Pants = "#000000"
+				}
+			}
+		},
+	}
     elseif (string.lower(teamName) == "usc") then
         return {
             City = "USC",

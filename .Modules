@@ -85,6 +85,49 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+elseif (string.lower(teamName) == "fort lauderdale") then
+	return {
+		City = "Fort Lauderdale",
+		Name = "FORT LAUDERDALE",
+		Abbreviation = "FTL",
+		Colors = {
+			Normal = {
+				Main = "#1A2332",
+				Light = "#2D3E50"
+			},
+			Alternate = {
+				Main = "#00D9A3",
+				Light = "#3FFFCC"
+			},
+			Endzone = "#1A2332",
+			Jersey = {
+				Home = {
+					NumberInner = "#00D9A3",
+					NumberStroke = "#FF8C42",
+					Helmet = "#1A2332",
+					Jersey = "#1A2332",
+					Stripe = "#00D9A3",
+					Pants = "#1A2332"
+				},
+				Away = {
+					NumberInner = "#1A2332",
+					NumberStroke = "#FF8C42",
+					Helmet = "#1A2332",
+					Jersey = "#FFFFFF",
+					Stripe = "#00D9A3",
+					Pants = "#FFFFFF"
+				},
+				Alternate = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#1A2332",
+					Helmet = "#00D9A3",
+					Jersey = "#00D9A3",
+					Stripe = "#FF8C42",
+					Pants = "#1A2332"
+				}
+			}
+		},
+	}
 elseif (string.lower(teamName) == "south carolina") then
 	return {
 		City = "South Carolina",

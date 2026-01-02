@@ -225,6 +225,41 @@ elseif (string.lower(teamName) == "seattle") then
 				}
 			},
 		}	
+elseif (string.lower(teamName) == "nebraska") then
+	return {
+		City = "Nebraska",
+		Name = "Cornhuskers",
+		Abbreviation = "NEB",
+		Colors = {
+			Normal = {
+				Main = "#E41C38",
+				Light = "#FF4F6B"
+			},
+			Alternate = {
+				Main = "#000000",
+				Light = "#333333"
+			},
+			Endzone = "#E41C38",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#E41C38",
+					Helmet = "#FFFFFF",
+					Jersey = "#E41C38",
+					Stripe = "#FFFFFF",
+					Pants = "#FFFFFF"
+				},
+				Away = {
+					NumberInner = "#E41C38",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#FFFFFF",
+					Jersey = "#FFFFFF",
+					Stripe = "#E41C38",
+					Pants = "#E41C38"
+				}
+			}
+		},
+	}
 elseif (string.lower(teamName) == "oakland") then
 		return {
 			City = "Oakland",

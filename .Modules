@@ -116,6 +116,14 @@ elseif (string.lower(teamName) == "south carolina") then
 					Jersey = "#FFFFFF",
 					Stripe = "#73000A",
 					Pants = "#FFFFFF"
+				},
+				Alternate = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#73000A",
+					Helmet = "#000000",
+					Jersey = "#000000",
+					Stripe = "#FFFFFF",
+					Pants = "#000000"
 				}
 			}
 		},

@@ -213,38 +213,38 @@ elseif (string.lower(teamName) == "toronto") then
 		Abbreviation = "TOR",
 		Colors = {
 			Normal = {
-				Main = "#1A3A52",
-				Light = "#3B7C9C"
+				Main = "#2990b3",
+				Light = "#5AB8D8"
 			},
 			Alternate = {
-				Main = "#3B7C9C",
-				Light = "#8BC4D9"
+				Main = "#1A3A52",
+				Light = "#2D5266"
 			},
-			Endzone = "#1A3A52",
+			Endzone = "#2990b3",
 			Jersey = {
 				Home = {
 					NumberInner = "#FFFFFF",
-					NumberStroke = "#3B7C9C",
-					Helmet = "#1A3A52",
-					Jersey = "#1A3A52",
-					Stripe = "#3B7C9C",
-					Pants = "#1A3A52"
+					NumberStroke = "#1A3A52",
+					Helmet = "#2990b3",
+					Jersey = "#2990b3",
+					Stripe = "#1A3A52",
+					Pants = "#2990b3"
 				},
 				Away = {
-					NumberInner = "#1A3A52",
-					NumberStroke = "#3B7C9C",
-					Helmet = "#1A3A52",
+					NumberInner = "#2990b3",
+					NumberStroke = "#1A3A52",
+					Helmet = "#2990b3",
 					Jersey = "#FFFFFF",
-					Stripe = "#3B7C9C",
+					Stripe = "#2990b3",
 					Pants = "#FFFFFF"
 				},
 				Alternate = {
 					NumberInner = "#FFFFFF",
-					NumberStroke = "#1A3A52",
-					Helmet = "#3B7C9C",
-					Jersey = "#3B7C9C",
-					Stripe = "#1A3A52",
-					Pants = "#3B7C9C"
+					NumberStroke = "#2990b3",
+					Helmet = "#1A3A52",
+					Jersey = "#1A3A52",
+					Stripe = "#2990b3",
+					Pants = "#1A3A52"
 				}
 			}
 		},

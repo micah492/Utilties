@@ -2025,7 +2025,7 @@ elseif (string.lower(teamName) == "ole miss") then
 			Jersey = {
 				Home = {
 					NumberInner = "#FFFFFF",
-					NumberStroke = "#FFFFFF",
+					NumberStroke = "#4A90E2",
 					Helmet = "#FFFFFF",
 					Jersey = "#4A90E2",
 					Stripe = "#CE1126",
@@ -2033,11 +2033,11 @@ elseif (string.lower(teamName) == "ole miss") then
 				},
 				Away = {
 					NumberInner = "#4A90E2",
-					NumberStroke = "#CE1126",
-					Helmet = "#14213D",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#4A90E2",
 					Jersey = "#FFFFFF",
 					Stripe = "#4A90E2",
-					Pants = "#C0C0C0"
+					Pants = "#FFFFFF"
 				},
 				Alternate = {
 					NumberInner = "#FFFFFF",

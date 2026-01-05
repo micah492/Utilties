@@ -2007,6 +2007,49 @@ elseif (string.lower(teamName) == "georgia") then
 				}
 			},
 		}
+elseif (string.lower(teamName) == "ole miss") then
+	return {
+		City = "Ole Miss",
+		Name = "Rebels",
+		Abbreviation = "MISS",
+		Colors = {
+			Normal = {
+				Main = "#CE1126",
+				Light = "#E63946"
+			},
+			Alternate = {
+				Main = "#14213D",
+				Light = "#4A90E2"
+			},
+			Endzone = "#CE1126",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#CE1126",
+					Helmet = "#FFFFFF",
+					Jersey = "#4A90E2",
+					Stripe = "#CE1126",
+					Pants = "#C0C0C0"
+				},
+				Away = {
+					NumberInner = "#4A90E2",
+					NumberStroke = "#CE1126",
+					Helmet = "#14213D",
+					Jersey = "#FFFFFF",
+					Stripe = "#4A90E2",
+					Pants = "#C0C0C0"
+				},
+				Alternate = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#4A90E2",
+					Helmet = "#4A90E2",
+					Jersey = "#CE1126",
+					Stripe = "#FFFFFF",
+					Pants = "#C0C0C0"
+				}
+			}
+		},
+	}
 	elseif (string.lower(teamName) == "boise state") then
 		return {
 			City = "Boise State",

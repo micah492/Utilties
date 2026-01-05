@@ -529,6 +529,92 @@ elseif (string.lower(teamName) == "oakland") then
 				}
 			},
 		}	
+elseif (string.lower(teamName) == "atlanta") then
+	return {
+		City = "Atlanta",
+		Name = "ATLANTA",
+		Abbreviation = "ATL",
+		Colors = {
+			Normal = {
+				Main = "#e11943",
+				Light = "#f43962"
+			},
+			Alternate = {
+				Main = "#161612",
+				Light = "#2e2e2b"
+			},
+			Endzone = "#e11943",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#161612",
+					Helmet = "#e11943",
+					Jersey = "#e11943",
+					Stripe = "#161612",
+					Pants = "#e11943"
+				},
+				Away = {
+					NumberInner = "#e11943",
+					NumberStroke = "#161612",
+					Helmet = "#e11943",
+					Jersey = "#FFFFFF",
+					Stripe = "#e11943",
+					Pants = "#FFFFFF"
+				},
+				Alternate = {
+					NumberInner = "#e11943",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#161612",
+					Jersey = "#161612",
+					Stripe = "#e11943",
+					Pants = "#161612"
+				}
+			}
+		},
+	}
+elseif (string.lower(teamName) == "fort wayne") then
+	return {
+		City = "Fort Wayne",
+		Name = "FORT WAYNE",
+		Abbreviation = "FWA",
+		Colors = {
+			Normal = {
+				Main = "#243e58",
+				Light = "#3D5A75"
+			},
+			Alternate = {
+				Main = "#debf7c",
+				Light = "#F0D89E"
+			},
+			Endzone = "#243e58",
+			Jersey = {
+				Home = {
+					NumberInner = "#debf7c",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#243e58",
+					Jersey = "#243e58",
+					Stripe = "#debf7c",
+					Pants = "#243e58"
+				},
+				Away = {
+					NumberInner = "#243e58",
+					NumberStroke = "#debf7c",
+					Helmet = "#243e58",
+					Jersey = "#FFFFFF",
+					Stripe = "#debf7c",
+					Pants = "#FFFFFF"
+				},
+				Alternate = {
+					NumberInner = "#243e58",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#debf7c",
+					Jersey = "#debf7c",
+					Stripe = "#243e58",
+					Pants = "#debf7c"
+				}
+			}
+		},
+	}
 	elseif (string.lower(teamName) == "long beach") then
 		return {
 			City = "Long Beach",

@@ -2025,11 +2025,11 @@ elseif (string.lower(teamName) == "ole miss") then
 			Jersey = {
 				Home = {
 					NumberInner = "#FFFFFF",
-					NumberStroke = "#CE1126",
+					NumberStroke = "#FFFFFF",
 					Helmet = "#FFFFFF",
 					Jersey = "#4A90E2",
 					Stripe = "#CE1126",
-					Pants = "#C0C0C0"
+					Pants = "#FFFFFF"
 				},
 				Away = {
 					NumberInner = "#4A90E2",

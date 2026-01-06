@@ -249,6 +249,49 @@ elseif (string.lower(teamName) == "toronto") then
 			}
 		},
 	}
+elseif (string.lower(teamName) == "tampa") then
+	return {
+		City = "Tampa",
+		Name = "TAMPA",
+		Abbreviation = "TAM",
+		Colors = {
+			Normal = {
+				Main = "#D50A0A",
+				Light = "#FF2D2D"
+			},
+			Alternate = {
+				Main = "#000000",
+				Light = "#2E2E2E"
+			},
+			Endzone = "#D50A0A",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#000000",
+					Helmet = "#D50A0A",
+					Jersey = "#D50A0A",
+					Stripe = "#000000",
+					Pants = "#D50A0A"
+				},
+				Away = {
+					NumberInner = "#D50A0A",
+					NumberStroke = "#000000",
+					Helmet = "#D50A0A",
+					Jersey = "#FFFFFF",
+					Stripe = "#D50A0A",
+					Pants = "#FFFFFF"
+				},
+				Alternate = {
+					NumberInner = "#D50A0A",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#000000",
+					Jersey = "#000000",
+					Stripe = "#D50A0A",
+					Pants = "#000000"
+				}
+			}
+		},
+	}
 elseif (string.lower(teamName) == "seattle") then
 		return {
 			City = "Seattle",

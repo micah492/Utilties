@@ -1301,6 +1301,7 @@ elseif (string.lower(teamName) == "georgia") then
 			City = "Rutgers",
 			Name = "Scarlet Knights",
 			Abbreviation = "RUTG",
+			LogoID = "rbxassetid://129158475129824",
 			Colors = {
 				Normal = {
 					Main = "#CC0033",
@@ -1371,6 +1372,7 @@ elseif (string.lower(teamName) == "georgia") then
 			City = "Texas",
 			Name = "Longhorns",
 			Abbreviation = "TEX",
+			LogoID = "rbxassetid://95889042969209",
 			Colors = {
 				Normal = {
 					Main = "#BF5700",

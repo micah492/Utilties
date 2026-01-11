@@ -326,42 +326,34 @@ function module:GetTeam(teamName)
 			Abbreviation = "TAM",
 			Colors = {
 				Normal = {
-					Main = "#D50A0A",
-					Light = "#FF2D2D"
+					Main = "#9c0806",
+					Light = "#C40000"
 				},
 				Alternate = {
-					Main = "#000000",
-					Light = "#2E2E2E"
+					Main = "#333333",
+					Light = "#616161"
 				},
-				Endzone = "#D50A0A",
+				Endzone = "#9c0806",
 				Jersey = {
 					Home = {
 						NumberInner = "#FFFFFF",
 						NumberStroke = "#000000",
-						Helmet = "#D50A0A",
-						Jersey = "#D50A0A",
-						Stripe = "#000000",
-						Pants = "#D50A0A"
-					},
-					Away = {
-						NumberInner = "#D50A0A",
-						NumberStroke = "#000000",
-						Helmet = "#D50A0A",
-						Jersey = "#FFFFFF",
-						Stripe = "#D50A0A",
+						Helmet = "#9c0806",
+						Jersey = "#9c0806",
+						Stripe = "#9c0806",
 						Pants = "#FFFFFF"
 					},
-					Alternate = {
-						NumberInner = "#D50A0A",
-						NumberStroke = "#FFFFFF",
-						Helmet = "#000000",
-						Jersey = "#000000",
-						Stripe = "#D50A0A",
-						Pants = "#000000"
+					Away = {
+						NumberInner = "#9c0806",
+						NumberStroke = "#000000",
+						Helmet = "#9c0806",
+						Jersey = "#FFFFFF",
+						Stripe = "#FFFFFF",
+						Pants = "#9c0806"
 					}
 				}
 			},
-		}
+		}	
 	elseif (string.lower(teamName) == "seattle") then
 		return {
 			City = "Seattle",

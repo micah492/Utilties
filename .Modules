@@ -1875,6 +1875,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+elseif (string.lower(teamName) == "texas a&m") then
+	return {
+		City = "Texas A&M",
+		Name = "Aggies",
+		Abbreviation = "TAMU",
+		Colors = {
+			Normal = {
+				Main = "#500000",
+				Light = "#800000"
+			},
+			Alternate = {
+				Main = "#FFFFFF",
+				Light = "#E8E8E8"
+			},
+			Endzone = "#500000",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#500000",
+					Helmet = "#500000",
+					Jersey = "#500000",
+					Stripe = "#FFFFFF",
+					Pants = "#FFFFFF"
+				},
+				Away = {
+					NumberInner = "#500000",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#FFFFFF",
+					Jersey = "#FFFFFF",
+					Stripe = "#FFFFFF",
+					Pants = "#500000"
+				}
+			}
+		},
+	}
 	elseif (string.lower(teamName) == "mississippi state") then
 		return {
 			City = "Mississippi State",

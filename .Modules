@@ -509,38 +509,38 @@ elseif (string.lower(teamName) == "detroit") then
 		Abbreviation = "DET",
 		Colors = {
 			Normal = {
-				Main = "#0070a8",
-				Light = "#12b0e4"
+				Main = "#0076B6",
+				Light = "#B0B7BC"
 			},
 			Alternate = {
-				Main = "#6e8c90",
-				Light = "#dcdad0"
+				Main = "#002C5F",
+				Light = "#FFFFFF"
 			},
-			Endzone = "#0070a8",
+			Endzone = "#0076B6",
 			Jersey = {
 				Home = {
 					NumberInner = "#FFFFFF",
-					NumberStroke = "#0070a8",
-					Helmet = "#6e8c90",
-					Jersey = "#0070a8",
-					Stripe = "#dcdad0",
-					Pants = "#dcdad0"
+					NumberStroke = "#002C5F",
+					Helmet = "#B0B7BC",
+					Jersey = "#0076B6",
+					Stripe = "#FFFFFF",
+					Pants = "#B0B7BC"
 				},
 				Away = {
-					NumberInner = "#0070a8",
-					NumberStroke = "#FFFFFF",
-					Helmet = "#6e8c90",
+					NumberInner = "#0076B6",
+					NumberStroke = "#B0B7BC",
+					Helmet = "#B0B7BC",
 					Jersey = "#FFFFFF",
-					Stripe = "#0070a8",
-					Pants = "#FFFFFF"
+					Stripe = "#0076B6",
+					Pants = "#0076B6"
 				},
-				Alternate = {
+				Alternate = { 
 					NumberInner = "#FFFFFF",
-					NumberStroke = "#0070a8",
-					Helmet = "#6e8c90",
-					Jersey = "#6e8c90",
-					Stripe = "#0070a8",
-					Pants = "#FFFFFF"
+					NumberStroke = "#0076B6",
+					Helmet = "#B0B7BC",
+					Jersey = "#B0B7BC",
+					Stripe = "#0076B6",
+					Pants = "#0076B6"
 				}
 			}
 		},

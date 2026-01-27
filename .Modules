@@ -459,49 +459,49 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
-elseif (string.lower(teamName) == "tokyo") then
-	return {
-		City = "Tokyo",
-		Name = "Ronin",
-		Abbreviation = "TKY",
-		Colors = {
-			Normal = {
-				Main = "#bf020f",
-				Light = "#85070a"
-			},
-			Alternate = {
-				Main = "#4f4e48",
-				Light = "#2E2E2E"
-			},
-			Endzone = "#bf020f",
-			Jersey = {
-				Home = {
-					NumberInner = "#FFFFFF",
-					NumberStroke = "#4f4e48",
-					Helmet = "#bf020f",
-					Jersey = "#bf020f",
-					Stripe = "#4f4e48",
-					Pants = "#FFFFFF"
-				},
-				Away = {
-					NumberInner = "#bf020f",
-					NumberStroke = "#4f4e48",
-					Helmet = "#FFFFFF",
-					Jersey = "#FFFFFF",
-					Stripe = "#bf020f",
-					Pants = "#4f4e48"
+elseif (string.lower(teamName) == "tokyo ronin") then
+		return {
+			City = "Tokyo",
+			Name = "Ronin",
+			Abbreviation = "TKY",
+			Colors = {
+				Normal = {
+					Main = "#BF020F",
+					Light = "#4F4E48"
 				},
 				Alternate = {
-					NumberInner = "#bf020f",
-					NumberStroke = "#FFFFFF",
-					Helmet = "#4f4e48",
-					Jersey = "#4f4e48",
-					Stripe = "#bf020f",
-					Pants = "#4f4e48"
+					Main = "#4F4E48",
+					Light = "#BF020F"
+				},
+				Endzone = "#BF020F",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#4F4E48",
+						Helmet = "#4F4E48",
+						Jersey = "#BF020F",
+						Stripe = "#4F4E48",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#BF020F",
+						NumberStroke = "#4F4E48",
+						Helmet = "#4F4E48",
+						Jersey = "#FFFFFF",
+						Stripe = "#BF020F",
+						Pants = "#BF020F"
+					},
+					Alternate = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#BF020F",
+						Helmet = "#4F4E48",
+						Jersey = "#4F4E48",
+						Stripe = "#BF020F",
+						Pants = "#BF020F"
+					}
 				}
-			}
-		},
-	}
+			},
+		}
 elseif (string.lower(teamName) == "detroit") then
 	return {
 		City = "Detroit",

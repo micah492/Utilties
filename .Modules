@@ -524,15 +524,23 @@ elseif (string.lower(teamName) == "detroit") then
 					Helmet = "#6e8c90",
 					Jersey = "#0070a8",
 					Stripe = "#dcdad0",
-					Pants = "#6e8c90"
+					Pants = "#dcdad0"
 				},
 				Away = {
 					NumberInner = "#0070a8",
-					NumberStroke = "#6e8c90",
-					Helmet = "#0070a8",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#6e8c90",
 					Jersey = "#FFFFFF",
 					Stripe = "#0070a8",
-					Pants = "#dcdad0"
+					Pants = "#FFFFFF"
+				},
+				Alternate = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#0070a8",
+					Helmet = "#6e8c90",
+					Jersey = "#6e8c90",
+					Stripe = "#0070a8",
+					Pants = "#FFFFFF"
 				}
 			}
 		},

@@ -806,6 +806,92 @@ elseif (string.lower(teamName) == "detroit") then
 				}
 			},
 		}
+elseif (string.lower(teamName) == "montgomery") then
+		return {
+			City = "Montgomery",
+			Name = "MONTGOMERY",
+			Abbreviation = "MGM",
+			Colors = {
+				Normal = {
+					Main = "#F15A24", -- Primary Orange
+					Light = "#FFFFFF"
+				},
+				Alternate = {
+					Main = "#002D62", -- Deep Navy
+					Light = "#F15A24"
+				},
+				Endzone = "#F15A24",
+				Jersey = {
+					Home = {
+						NumberInner = "#002D62",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#F15A24",
+						Jersey = "#F15A24",
+						Stripe = "#002D62",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#F15A24",
+						NumberStroke = "#002D62",
+						Helmet = "#F15A24",
+						Jersey = "#FFFFFF",
+						Stripe = "#F15A24",
+						Pants = "#002D62"
+					},
+					Alternate = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#F15A24",
+						Helmet = "#F15A24",
+						Jersey = "#002D62",
+						Stripe = "#F15A24",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
+elseif (string.lower(teamName) == "los angeles") then
+		return {
+			City = "Los Angeles",
+			Name = "LOS ANGELES",
+			Abbreviation = "LA",
+			Colors = {
+				Normal = {
+					Main = "#002E6D", -- Deep Navy
+					Light = "#FFD100"  -- Vibrant Yellow
+				},
+				Alternate = {
+					Main = "#FFD100",
+					Light = "#002E6D"
+				},
+				Endzone = "#002E6D",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFD100",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#002E6D",
+						Jersey = "#002E6D",
+						Stripe = "#FFD100",
+						Pants = "#FFD100"
+					},
+					Away = {
+						NumberInner = "#002E6D",
+						NumberStroke = "#FFD100",
+						Helmet = "#002E6D",
+						Jersey = "#FFFFFF",
+						Stripe = "#002E6D",
+						Pants = "#002E6D"
+					},
+					Alternate = {
+						NumberInner = "#002E6D",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#002E6D",
+						Jersey = "#FFD100",
+						Stripe = "#002E6D",
+						Pants = "#002E6D"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "long beach") then
 		return {
 			City = "Long Beach",

@@ -459,6 +459,84 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+elseif (string.lower(teamName) == "tokyo") then
+	return {
+		City = "Tokyo",
+		Name = "Ronin",
+		Abbreviation = "TKY",
+		Colors = {
+			Normal = {
+				Main = "#bf020f",
+				Light = "#85070a"
+			},
+			Alternate = {
+				Main = "#4f4e48",
+				Light = "#2E2E2E"
+			},
+			Endzone = "#bf020f",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#4f4e48",
+					Helmet = "#bf020f",
+					Jersey = "#bf020f",
+					Stripe = "#4f4e48",
+					Pants = "#FFFFFF"
+				},
+				Away = {
+					NumberInner = "#bf020f",
+					NumberStroke = "#4f4e48",
+					Helmet = "#FFFFFF",
+					Jersey = "#FFFFFF",
+					Stripe = "#bf020f",
+					Pants = "#4f4e48"
+				},
+				Alternate = {
+					NumberInner = "#bf020f",
+					NumberStroke = "#FFFFFF",
+					Helmet = "#4f4e48",
+					Jersey = "#4f4e48",
+					Stripe = "#bf020f",
+					Pants = "#4f4e48"
+				}
+			}
+		},
+	}
+elseif (string.lower(teamName) == "detroit") then
+	return {
+		City = "Detroit",
+		Name = "DETROIT",
+		Abbreviation = "DET",
+		Colors = {
+			Normal = {
+				Main = "#0070a8",
+				Light = "#12b0e4"
+			},
+			Alternate = {
+				Main = "#6e8c90",
+				Light = "#dcdad0"
+			},
+			Endzone = "#0070a8",
+			Jersey = {
+				Home = {
+					NumberInner = "#FFFFFF",
+					NumberStroke = "#0070a8",
+					Helmet = "#6e8c90",
+					Jersey = "#0070a8",
+					Stripe = "#dcdad0",
+					Pants = "#6e8c90"
+				},
+				Away = {
+					NumberInner = "#0070a8",
+					NumberStroke = "#6e8c90",
+					Helmet = "#6e8c90",
+					Jersey = "#FFFFFF",
+					Stripe = "#12b0e4",
+					Pants = "#dcdad0"
+				}
+			}
+		},
+	}
 	elseif (string.lower(teamName) == "green bay") then
 		return {
 			City = "Green Bay",

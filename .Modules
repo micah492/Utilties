@@ -155,6 +155,49 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+elseif (string.lower(teamName) == "carolina") then
+		return {
+			City = "Carolina",
+			Name = "CAROLINA",
+			Abbreviation = "CAR",
+			Colors = {
+				Normal = {
+					Main = "#000000", -- Primary Black
+					Light = "#00C3FF"  -- Electric Blue accent
+				},
+				Alternate = {
+					Main = "#00C3FF",
+					Light = "#FFFFFF"
+				},
+				Endzone = "#000000",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#00C3FF",
+						Helmet = "#000000",
+						Jersey = "#000000",
+						Stripe = "#00C3FF",
+						Pants = "#00C3FF"
+					},
+					Away = {
+						NumberInner = "#000000",
+						NumberStroke = "#00C3FF",
+						Helmet = "#000000",
+						Jersey = "#FFFFFF",
+						Stripe = "#000000",
+						Pants = "#FFFFFF"
+					},
+					Alternate = {
+						NumberInner = "#00C3FF",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#000000",
+						Jersey = "#00C3FF",
+						Stripe = "#000000",
+						Pants = "#000000"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "fort lauderdale") then
 		return {
 			City = "Fort Lauderdale",
@@ -856,38 +899,38 @@ elseif (string.lower(teamName) == "los angeles") then
 			Abbreviation = "LA",
 			Colors = {
 				Normal = {
-					Main = "#002E6D", -- Deep Navy
-					Light = "#FFD100"  -- Vibrant Yellow
+					Main = "#99CCFF", -- Icy Light Blue
+					Light = "#FFFFFF"
 				},
 				Alternate = {
-					Main = "#FFD100",
-					Light = "#002E6D"
+					Main = "#002D62", -- Deep Navy Outline
+					Light = "#99CCFF"
 				},
-				Endzone = "#002E6D",
+				Endzone = "#99CCFF",
 				Jersey = {
 					Home = {
-						NumberInner = "#FFD100",
+						NumberInner = "#002D62",
 						NumberStroke = "#FFFFFF",
-						Helmet = "#002E6D",
-						Jersey = "#002E6D",
-						Stripe = "#FFD100",
-						Pants = "#FFD100"
+						Helmet = "#FFFFFF",
+						Jersey = "#99CCFF",
+						Stripe = "#002D62",
+						Pants = "#FFFFFF"
 					},
 					Away = {
-						NumberInner = "#002E6D",
-						NumberStroke = "#FFD100",
-						Helmet = "#002E6D",
+						NumberInner = "#99CCFF",
+						NumberStroke = "#002D62",
+						Helmet = "#FFFFFF",
 						Jersey = "#FFFFFF",
-						Stripe = "#002E6D",
-						Pants = "#002E6D"
+						Stripe = "#99CCFF",
+						Pants = "#002D62"
 					},
 					Alternate = {
-						NumberInner = "#002E6D",
-						NumberStroke = "#FFFFFF",
-						Helmet = "#002E6D",
-						Jersey = "#FFD100",
-						Stripe = "#002E6D",
-						Pants = "#002E6D"
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#99CCFF",
+						Helmet = "#002D62",
+						Jersey = "#002D62",
+						Stripe = "#99CCFF",
+						Pants = "#FFFFFF"
 					}
 				}
 			},

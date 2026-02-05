@@ -50,6 +50,92 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+elseif (string.lower(teamName) == "providence") then
+		return {
+			City = "Providence",
+			Name = "PROVIDENCE",
+			Abbreviation = "PVD",
+			Colors = {
+				Normal = {
+					Main = "#5F1F30", -- Deep Maroon
+					Light = "#BB7E0F"  -- Metallic Gold
+				},
+				Alternate = {
+					Main = "#BB7E0F",
+					Light = "#5F1F30"
+				},
+				Endzone = "#5F1F30",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#BB7E0F",
+						Helmet = "#5F1F30",
+						Jersey = "#5F1F30",
+						Stripe = "#BB7E0F",
+						Pants = "#BB7E0F"
+					},
+					Away = {
+						NumberInner = "#5F1F30",
+						NumberStroke = "#BB7E0F",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#5F1F30",
+						Pants = "#5F1F30"
+					},
+					Alternate = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#5F1F30",
+						Helmet = "#BB7E0F",
+						Jersey = "#BB7E0F",
+						Stripe = "#5F1F30",
+						Pants = "#5F1F30"
+					}
+				}
+			},
+		}
+	elseif (string.lower(teamName) == "philadelphia") then
+		return {
+			City = "Philadelphia",
+			Name = "PHILADELPHIA",
+			Abbreviation = "PHI",
+			Colors = {
+				Normal = {
+					Main = "#327672", -- Midnight Teal
+					Light = "#D3DAE0"  -- Silver/Grey Accent
+				},
+				Alternate = {
+					Main = "#1E2A36", -- Dark Slate
+					Light = "#327672"
+				},
+				Endzone = "#327672",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#1E2A36",
+						Helmet = "#327672",
+						Jersey = "#327672",
+						Stripe = "#D3DAE0",
+						Pants = "#D3DAE0"
+					},
+					Away = {
+						NumberInner = "#327672",
+						NumberStroke = "#1E2A36",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#327672",
+						Pants = "#327672"
+					},
+					Alternate = {
+						NumberInner = "#D3DAE0",
+						NumberStroke = "#327672",
+						Helmet = "#1E2A36",
+						Jersey = "#1E2A36",
+						Stripe = "#327672",
+						Pants = "#1E2A36"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "knoxville") then
 		return {
 			City = "Knoxville",

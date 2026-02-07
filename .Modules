@@ -2025,6 +2025,49 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}	
+	elseif (string.lower(teamName) == "iowa hawkeyes") then
+		return {
+			City = "Iowa",
+			Name = "HAWKEYES",
+			Abbreviation = "IOWA",
+			Colors = {
+				Normal = {
+					Main = "#000000", -- Black
+					Light = "#FFCD00"  -- Iowa Gold
+				},
+				Alternate = {
+					Main = "#FFCD00",
+					Light = "#000000"
+				},
+				Endzone = "#000000",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFCD00",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#000000",
+						Jersey = "#000000",
+						Stripe = "#FFCD00",
+						Pants = "#FFCD00"
+					},
+					Away = {
+						NumberInner = "#000000",
+						NumberStroke = "#FFCD00",
+						Helmet = "#000000",
+						Jersey = "#FFFFFF",
+						Stripe = "#000000",
+						Pants = "#FFCD00"
+					},
+					Alternate = {
+						NumberInner = "#000000",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#FFCD00",
+						Jersey = "#FFCD00",
+						Stripe = "#000000",
+						Pants = "#000000"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "troy") then
 		return {
 			City = "Troy",

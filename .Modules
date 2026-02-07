@@ -140,7 +140,7 @@ elseif (string.lower(teamName) == "providence") then
 		return {
 			City = "Colorado Springs",
 			Name = "COLORADO SPRINGS",
-			Abbreviation = "COSP",
+			Abbreviation = "CS",
 			Colors = {
 				Normal = {
 					Main = "#E4C372", -- Gold (Main)

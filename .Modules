@@ -93,6 +93,92 @@ elseif (string.lower(teamName) == "providence") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "north car") then
+		return {
+			City = "North Carolina",
+			Name = "NORTH CAROLINA",
+			Abbreviation = "NC",
+			Colors = {
+				Normal = {
+					Main = "#72AFC9", -- Sky Blue (Main)
+					Light = "#D2E3E9"  -- Light Accent (Other)
+				},
+				Alternate = {
+					Main = "#24354A", -- Navy (Secondary)
+					Light = "#72AFC9"
+				},
+				Endzone = "#72AFC9",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#24354A",
+						Helmet = "#72AFC9",
+						Jersey = "#72AFC9",
+						Stripe = "#FFFFFF",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#72AFC9",
+						NumberStroke = "#24354A",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#72AFC9",
+						Pants = "#72AFC9"
+					},
+					Alternate = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#72AFC9",
+						Helmet = "#24354A",
+						Jersey = "#24354A",
+						Stripe = "#72AFC9",
+						Pants = "#24354A"
+					}
+				}
+			},
+		}
+	elseif (string.lower(teamName) == "colorado springs") then
+		return {
+			City = "Colorado Springs",
+			Name = "COLORADO SPRINGS",
+			Abbreviation = "COSP",
+			Colors = {
+				Normal = {
+					Main = "#E4C372", -- Gold (Main)
+					Light = "#FFFFFF"
+				},
+				Alternate = {
+					Main = "#302F32", -- Charcoal (Secondary)
+					Light = "#E4C372"
+				},
+				Endzone = "#E4C372",
+				Jersey = {
+					Home = {
+						NumberInner = "#302F32",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#E4C372",
+						Jersey = "#E4C372",
+						Stripe = "#302F32",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#E4C372",
+						NumberStroke = "#302F32",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#E4C372",
+						Pants = "#302F32"
+					},
+					Alternate = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#E4C372",
+						Helmet = "#302F32",
+						Jersey = "#302F32",
+						Stripe = "#E4C372",
+						Pants = "#302F32"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "philadelphia") then
 		return {
 			City = "Philadelphia",

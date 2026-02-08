@@ -2025,7 +2025,7 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}	
-	elseif (string.lower(teamName) == "iowa hawkeyes") then
+	elseif (string.lower(teamName) == "iowa") then
 		return {
 			City = "Iowa",
 			Name = "HAWKEYES",

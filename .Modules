@@ -1422,6 +1422,49 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "auburn") then
+		return {
+			City = "Auburn",
+			Name = "TIGERS",
+			Abbreviation = "AUB",
+			Colors = {
+				Normal = {
+					Main = "#0C2340", -- Auburn Blue
+					Light = "#1D4A7E"  -- Lighter Blue
+				},
+				Alternate = {
+					Main = "#E87722", -- Auburn Orange
+					Light = "#FFA052"  -- Lighter Orange
+				},
+				Endzone = "#0C2340",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#E87722",
+						Helmet = "#FFFFFF",
+						Jersey = "#0C2340",
+						Stripe = "#E87722",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#0C2340",
+						NumberStroke = "#E87722",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#0C2340",
+						Pants = "#FFFFFF"
+					},
+					Alternate = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#0C2340",
+						Helmet = "#E87722",
+						Jersey = "#E87722",
+						Stripe = "#0C2340",
+						Pants = "#0C2340"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "georgia") then
 		return {
 			City = "Georgia",

@@ -257,6 +257,41 @@ elseif (string.lower(teamName) == "providence") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "fayetteville") then
+        return {
+            City = "Fayetteville",
+            Name = "FAYETTEVILLE",
+            Abbreviation = "FAY",
+            Colors = {
+                Normal = {
+                    Main = "#FF7901", 
+                    Light = "#FF7901"  
+                },
+                Alternate = {
+                    Main = "#659928", 
+                    Light = "#FF7901"
+                },
+                Endzone = "#FF7901",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#659928",
+                        Helmet = "#FF7901",
+                        Jersey = "#FF7901",
+                        Stripe = "#FF7901",
+                        Pants = "#FFFFFF"
+                    },
+                    Away = {
+                        NumberInner = "#FF7901",
+                        NumberStroke = "#659928",
+                        Helmet = "#FFFFFF",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#FF7901",
+                        Pants = "#FF7901"
+                    }
+                }
+            },
+        }
 	elseif (string.lower(teamName) == "new orleans") then
 		return {
 			City = "New Orleans",

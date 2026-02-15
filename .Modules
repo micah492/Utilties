@@ -50,6 +50,49 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "san diego") then
+		return {
+			City = "San Diego",
+			Name = "SAN DIEGO",
+			Abbreviation = "SD",
+			Colors = {
+				Normal = {
+					Main = "#1E6EB6", -- Charger Blue
+					Light = "#4C9DDF"  -- Lighter Sky Blue tint
+				},
+				Alternate = {
+					Main = "#FCB511", -- Bolt Gold
+					Light = "#FFD25A"  -- Lighter Gold tint
+				},
+				Endzone = "#1E6EB6",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#FCB511",
+						Helmet = "#E4E6DE", -- White Helmet
+						Jersey = "#1E6EB6",
+						Stripe = "#FCB511",
+						Pants = "#FCB511"
+					},
+					Away = {
+						NumberInner = "#1E6EB6",
+						NumberStroke = "#FCB511",
+						Helmet = "#E4E6DE",
+						Jersey = "#E4E6DE", -- White Jersey
+						Stripe = "#1E6EB6",
+						Pants = "#1E6EB6"
+					},
+					Alternate = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#1E6EB6",
+						Helmet = "#1E6EB6", -- Blue Helmet
+						Jersey = "#FCB511",
+						Stripe = "#E4E6DE",
+						Pants = "#E4E6DE"
+					}
+				}
+			},
+		}
 elseif (string.lower(teamName) == "providence") then
 		return {
 			City = "Providence",

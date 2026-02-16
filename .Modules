@@ -3158,35 +3158,35 @@ elseif (string.lower(teamName) == "texas a&m") then
 			Colors = {
 				Normal = {
 					Main = "#000000", -- Black
-					Light = "#2C2C2C"  -- Gunmetal Tint
+					Light = "#2C2C2C"  -- Gunmetal Lighter Tint
 				},
 				Alternate = {
-					Main = "#D4AF37", -- Army Gold
-					Light = "#E5C972"  -- Lighter Gold Tint
+					Main = "#D4BF91", -- Athletics Gold
+					Light = "#E5D4B1"  -- Lighter Gold Tint
 				},
-				Endzone = "#000000",
+				Endzone = "#4B5320", -- Army Green
 				Jersey = {
-					Home = {
-						NumberInner = "#D4AF37",
-						NumberStroke = "#FFFFFF",
-						Helmet = "#D4AF37",
-						Jersey = "#000000",
-						Stripe = "#D4AF37",
-						Pants = "#D4AF37"
-					},
-					Away = { -- "Bastogne" Tactical Noir Version
+					Home = { -- Olive Green with White Numbers
 						NumberInner = "#FFFFFF",
-						NumberStroke = "#2C2C2C",
+						NumberStroke = "#000000",
+						Helmet = "#FFFFFF",
+						Jersey = "#4B5320", -- Army Green
+						Stripe = "#000000",
+						Pants = "#4B5320"  -- Army Green
+					},
+					Away = { -- Tactical Blackout
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#D4BF91",
 						Helmet = "#000000",
 						Jersey = "#000000",
-						Stripe = "#2C2C2C",
+						Stripe = "#D4BF91",
 						Pants = "#000000"
 					},
-					Alternate = {
+					Alternate = { -- Classic Gold Set
 						NumberInner = "#000000",
 						NumberStroke = "#FFFFFF",
-						Helmet = "#000000",
-						Jersey = "#D4AF37",
+						Helmet = "#D4BF91",
+						Jersey = "#D4BF91",
 						Stripe = "#000000",
 						Pants = "#000000"
 					}

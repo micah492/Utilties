@@ -1936,6 +1936,49 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "navy") then
+		return {
+			City = "Navy",
+			Name = "MIDSHIPMEN",
+			Abbreviation = "NAVY",
+			Colors = {
+				Normal = {
+					Main = "#00205B", -- Navy Blue
+					Light = "#1A3D7C"  -- Lighter Navy Tint
+				},
+				Alternate = {
+					Main = "#FFC72C", -- Gold/Yellow
+					Light = "#FFD970"  -- Lighter Gold Tint
+				},
+				Endzone = "#00205B",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFC72C",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#FFC72C",
+						Jersey = "#00205B",
+						Stripe = "#FFFFFF",
+						Pants = "#00205B"
+					},
+					Away = {
+						NumberInner = "#00205B",
+						NumberStroke = "#FFC72C",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#00205B",
+						Pants = "#00205B"
+					},
+					Alternate = { -- "Blue Angels" Flight Suit Set
+						NumberInner = "#FFC72C",
+						NumberStroke = "#1A3D7C",
+						Helmet = "#00205B",
+						Jersey = "#00205B",
+						Stripe = "#FFC72C",
+						Pants = "#00205B"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "notre dame") then
 		return {
 			City = "Notre Dame",

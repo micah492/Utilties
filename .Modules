@@ -3107,6 +3107,49 @@ elseif (string.lower(teamName) == "texas a&m") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "army") then
+		return {
+			City = "Army",
+			Name = "BLACK KNIGHTS",
+			Abbreviation = "ARMY",
+			Colors = {
+				Normal = {
+					Main = "#000000", -- Black
+					Light = "#2C2C2C"  -- Gunmetal Tint
+				},
+				Alternate = {
+					Main = "#D4AF37", -- Army Gold
+					Light = "#E5C972"  -- Lighter Gold Tint
+				},
+				Endzone = "#000000",
+				Jersey = {
+					Home = {
+						NumberInner = "#D4AF37",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#D4AF37",
+						Jersey = "#000000",
+						Stripe = "#D4AF37",
+						Pants = "#D4AF37"
+					},
+					Away = { -- "Bastogne" Tactical Noir Version
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#2C2C2C",
+						Helmet = "#000000",
+						Jersey = "#000000",
+						Stripe = "#2C2C2C",
+						Pants = "#000000"
+					},
+					Alternate = {
+						NumberInner = "#000000",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#000000",
+						Jersey = "#D4AF37",
+						Stripe = "#000000",
+						Pants = "#000000"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "baton rouge") then
 		return {
 			City = "Baton Rouge",

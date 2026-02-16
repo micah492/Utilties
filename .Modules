@@ -1947,34 +1947,34 @@ elseif (string.lower(teamName) == "los angeles") then
 					Light = "#1A3D7C"  -- Lighter Navy Tint
 				},
 				Alternate = {
-					Main = "#FFC72C", -- Gold/Yellow
-					Light = "#FFD970"  -- Lighter Gold Tint
+					Main = "#C5B783", -- Official Gold
+					Light = "#D6CBA3"  -- Lighter Gold Tint
 				},
 				Endzone = "#00205B",
 				Jersey = {
-					Home = {
-						NumberInner = "#FFC72C",
-						NumberStroke = "#FFFFFF",
-						Helmet = "#FFC72C",
+					Home = { -- The "Blue Angels" Flight Suit Set
+						NumberInner = "#C5B783",
+						NumberStroke = "#1A3D7C",
+						Helmet = "#00205B",
 						Jersey = "#00205B",
-						Stripe = "#FFFFFF",
+						Stripe = "#C5B783",
 						Pants = "#00205B"
 					},
 					Away = {
 						NumberInner = "#00205B",
-						NumberStroke = "#FFC72C",
+						NumberStroke = "#C5B783",
 						Helmet = "#FFFFFF",
 						Jersey = "#FFFFFF",
 						Stripe = "#00205B",
 						Pants = "#00205B"
 					},
-					Alternate = { -- "Blue Angels" Flight Suit Set
-						NumberInner = "#FFC72C",
-						NumberStroke = "#1A3D7C",
-						Helmet = "#00205B",
+					Alternate = { -- Classic Midshipmen Look
+						NumberInner = "#C5B783",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#C5B783",
 						Jersey = "#00205B",
-						Stripe = "#FFC72C",
-						Pants = "#00205B"
+						Stripe = "#FFFFFF",
+						Pants = "#C5B783"
 					}
 				}
 			},

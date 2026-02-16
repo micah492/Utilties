@@ -3178,9 +3178,9 @@ elseif (string.lower(teamName) == "texas a&m") then
 						NumberInner = "#FFFFFF",
 						NumberStroke = "#000000",
 						Helmet = "#FFFFFF",
-						Jersey = "#4B5320", -- Army Green
+						Jersey = "#5d6532", -- Army Green
 						Stripe = "#000000",
-						Pants = "#4B5320"  -- Army Green
+						Pants = "#5d6532"  -- Army Green
 					},
 					Alternate = { -- Classic Gold
 						NumberInner = "#000000",

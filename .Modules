@@ -93,6 +93,49 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "anaheim") then
+		return {
+			City = "Anaheim",
+			Name = "ANAHEIM",
+			Abbreviation = "ANA",
+			Colors = {
+				Normal = {
+					Main = "#E61D21", -- Anaheim Red
+					Light = "#F25E61"  -- Lighter Red tint
+				},
+				Alternate = {
+					Main = "#FCAB00", -- Spartan Gold
+					Light = "#FFC850"  -- Lighter Gold tint
+				},
+				Endzone = "#E61D21",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#FCAB00",
+						Helmet = "#FCAB00",
+						Jersey = "#E61D21",
+						Stripe = "#FCAB00",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#E61D21",
+						NumberStroke = "#FCAB00",
+						Helmet = "#E61D21",
+						Jersey = "#FFFFFF",
+						Stripe = "#E61D21",
+						Pants = "#E61D21"
+					},
+					Alternate = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#E61D21",
+						Helmet = "#E61D21",
+						Jersey = "#FCAB00",
+						Stripe = "#FFFFFF",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 elseif (string.lower(teamName) == "providence") then
 		return {
 			City = "Providence",

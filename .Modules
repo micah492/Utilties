@@ -2235,16 +2235,16 @@ elseif (string.lower(teamName) == "los angeles") then
 	elseif (string.lower(teamName) == "iowa") then
 		return {
 			City = "Iowa",
-			Name = "HAWKEYES",
+			Name = "Hawkeyes",
 			Abbreviation = "IOWA",
 			Colors = {
 				Normal = {
-					Main = "#000000", -- Black
-					Light = "#FFCD00"  -- Iowa Gold
+					Main = "#000000",
+					Light = "#333333"
 				},
 				Alternate = {
-					Main = "#FFCD00",
-					Light = "#000000"
+					Main = "#FFCD00", -- Gold used for Stroke and Alternate
+					Light = "#FFE066"
 				},
 				Endzone = "#000000",
 				Jersey = {
@@ -2263,14 +2263,6 @@ elseif (string.lower(teamName) == "los angeles") then
 						Jersey = "#FFFFFF",
 						Stripe = "#000000",
 						Pants = "#FFCD00"
-					},
-					Alternate = {
-						NumberInner = "#000000",
-						NumberStroke = "#FFFFFF",
-						Helmet = "#FFCD00",
-						Jersey = "#FFCD00",
-						Stripe = "#000000",
-						Pants = "#000000"
 					}
 				}
 			},

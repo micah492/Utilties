@@ -1664,6 +1664,41 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "arkansas") then
+		return {
+			City = "Arkansas",
+			Name = "Razorbacks",
+			Abbreviation = "ARK",
+			Colors = {
+				Normal = {
+					Main = "#9D2235", -- Cardinal
+					Light = "#C42B42"
+				},
+				Alternate = {
+					Main = "#FFFFFF",
+					Light = "#F0F0F0"
+				},
+				Endzone = "#9D2235",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#000000",
+						Helmet = "#9D2235",
+						Jersey = "#9D2235",
+						Stripe = "#FFFFFF",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#9D2235",
+						NumberStroke = "#000000",
+						Helmet = "#9D2235",
+						Jersey = "#FFFFFF",
+						Stripe = "#9D2235",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "clemson") then
 		return {
 			City = "Clemson",

@@ -93,6 +93,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "pyros") then
+		return {
+			City = "Pyros",
+			Name = "PYROS",
+			Abbreviation = "PYR",
+			Colors = {
+				Normal = {
+					Main = "#EF3340", 
+					Light = "#FFD100" 
+				},
+				Alternate = {
+					Main = "#2D3132", 
+					Light = "#FCF5E5"  
+				},
+				Endzone = "#ef3340",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFD100",
+						NumberStroke = "#2D3132",
+						Helmet = "#2D3132",
+						Jersey = "#EF3340",
+						Stripe = "#FFD100",
+						Pants = "#2D3132"
+					},
+					Away = {
+						NumberInner = "#EF3340",
+						NumberStroke = "#2D3132",
+						Helmet = "#EF3340",
+						Jersey = "#FCF5E5",
+						Stripe = "#EF3340",
+						Pants = "#FCF5E5"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "anaheim") then
 		return {
 			City = "Anaheim",

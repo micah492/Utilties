@@ -128,6 +128,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "grand falcons") then
+		return {
+			City = "Grand Falcons",
+			Name = "GRAND FALCONS",
+			Abbreviation = "GF",
+			Colors = {
+				Normal = {
+					Main = "#5D2E8E",
+					Light = "#8C8C8C"  
+				},
+				Alternate = {
+					Main = "#1F2332", 
+					Light = "#FFFFFF"
+				},
+				Endzone = "#5d2e8e",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#8C8C8C",
+						Helmet = "#1F2332", 
+						Jersey = "#5D2E8E",
+						Stripe = "#8C8C8C",
+						Pants = "#1F2332"
+					},
+					Away = {
+						NumberInner = "#5D2E8E",
+						NumberStroke = "#1F2332",
+						Helmet = "#8C8C8C", 
+						Jersey = "#FFFFFF",
+						Stripe = "#5D2E8E",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "anaheim") then
 		return {
 			City = "Anaheim",

@@ -2302,6 +2302,41 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "michigan") then
+		return {
+			City = "Michigan",
+			Name = "Wolverines",
+			Abbreviation = "MICH",
+			Colors = {
+				Normal = {
+					Main = "#00274C", -- Maize and Blue
+					Light = "#003F7A"
+				},
+				Alternate = {
+					Main = "#FFCB05",
+					Light = "#FFD942"
+				},
+				Endzone = "#00274c",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFCB05",
+						NumberStroke = "#FFCB05",
+						Helmet = "#00274C", -- Winged Helmet base
+						Jersey = "#00274C",
+						Stripe = "#FFCB05",
+						Pants = "#FFCB05"
+					},
+					Away = {
+						NumberInner = "#00274C",
+						NumberStroke = "#00274C",
+						Helmet = "#00274C",
+						Jersey = "#FFFFFF",
+						Stripe = "#00274C",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "kansas state") then
 		return {
 			City = "Kansas State",

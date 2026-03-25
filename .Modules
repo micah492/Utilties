@@ -93,6 +93,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "st. frances") then
+		return {
+			City = "St. Frances",
+			Name = "PANTHERS",
+			Abbreviation = "SFA",
+			Colors = {
+				Normal = {
+					Main = "#000000",
+					Light = "#2C2C2C"
+				},
+				Alternate = {
+					Main = "#FBCE0E",
+					Light = "#FDE06A"
+				},
+				Endzone = "#000000",
+				Jersey = {
+					Home = {
+						NumberInner = "#FBCE0E",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#000000",
+						Jersey = "#000000",
+						Stripe = "#FBCE0E",
+						Pants = "#000000"
+					},
+					Away = {
+						NumberInner = "#000000",
+						NumberStroke = "#FBCE0E",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#000000",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "pyros") then
 		return {
 			City = "Pyros",

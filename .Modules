@@ -128,6 +128,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "lawrenceburg") then
+		return {
+			City = "Lawrenceburg",
+			Name = "TIGERS",
+			Abbreviation = "LBG",
+			Colors = {
+				Normal = {
+					Main = "#FF6600",
+					Light = "#FF8533"
+				},
+				Alternate = {
+					Main = "#000000",
+					Light = "#2C2C2C"
+				},
+				Endzone = "#FF6600",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#000000",
+						Helmet = "#FF6600",
+						Jersey = "#FF6600",
+						Stripe = "#000000",
+						Pants = "#000000"
+					},
+					Away = {
+						NumberInner = "#FF6600",
+						NumberStroke = "#000000",
+						Helmet = "#FF6600",
+						Jersey = "#FFFFFF",
+						Stripe = "#FF6600",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "pyros") then
 		return {
 			City = "Pyros",

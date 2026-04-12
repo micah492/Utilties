@@ -3360,6 +3360,41 @@ elseif (string.lower(teamName) == "texas a&m") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "wisconsin") then
+		return {
+			City = "Wisconsin",
+			Name = "BADGERS",
+			Abbreviation = "WIS",
+			Colors = {
+				Normal = {
+					Main = "#C5050C",
+					Light = "#E30613"
+				},
+				Alternate = {
+					Main = "#FFFFFF",
+					Light = "#F2F2F2"
+				},
+				Endzone = "#C5050C",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#FFFFFF",
+						Jersey = "#C5050C",
+						Stripe = "#FFFFFF",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#C5050C",
+						NumberStroke = "#C5050C",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#C5050C",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "oklahoma") then
 		return {
 			City = "Oklahoma",

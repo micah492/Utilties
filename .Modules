@@ -1796,6 +1796,41 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "illinois") then
+		return {
+			City = "Illinois",
+			Name = "FIGHTING ILLINI",
+			Abbreviation = "ILL",
+			Colors = {
+				Normal = {
+					Main = "#E84A27",
+					Light = "#FF5F3D"
+				},
+				Alternate = {
+					Main = "#13294B",
+					Light = "#1E4077"
+				},
+				Endzone = "#E84A27",
+				Jersey = {
+					Home = {
+						NumberInner = "#13294B",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#E84A27",
+						Jersey = "#E84A27",
+						Stripe = "#13294B",
+						Pants = "#E84A27"
+					},
+					Away = {
+						NumberInner = "#E84A27",
+						NumberStroke = "#13294B",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#E84A27",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "georgia") then
 		return {
 			City = "Georgia",

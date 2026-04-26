@@ -354,7 +354,7 @@ elseif (string.lower(teamName) == "providence") then
 				}
 			},
 		}
-	elseif (string.lower(teamName) == "long island") then
+elseif (string.lower(teamName) == "long island") then
 		return {
 			City = "Long Island",
 			Name = "LONG ISLAND",
@@ -397,11 +397,11 @@ elseif (string.lower(teamName) == "baltimore") then
 			Colors = {
 				Normal = {
 					Main = "#9C3BDF",
-					Light = "#BA6EF1"
+					Light = "#B566EB"
 				},
 				Alternate = {
 					Main = "#040405",
-					Light = "#222223"
+					Light = "#1A1A1B"
 				},
 				Endzone = "#9C3BDF",
 				Jersey = {

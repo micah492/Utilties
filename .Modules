@@ -354,6 +354,76 @@ elseif (string.lower(teamName) == "providence") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "long island") then
+		return {
+			City = "Long Island",
+			Name = "LONG ISLAND",
+			Abbreviation = "LI",
+			Colors = {
+				Normal = {
+					Main = "#70C6EC",
+					Light = "#8ED1F0"
+				},
+				Alternate = {
+					Main = "#FFC21E",
+					Light = "#FFD04B"
+				},
+				Endzone = "#70C6EC",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#001B3B",
+						Helmet = "#70C6EC",
+						Jersey = "#70C6EC",
+						Stripe = "#FFC21E",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#70C6EC",
+						NumberStroke = "#001B3B",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#FFC21E",
+						Pants = "#70C6EC"
+					}
+				}
+			},
+		}
+	elseif (string.lower(teamName) == "baltimore") then
+		return {
+			City = "Baltimore",
+			Name = "BALTIMORE",
+			Abbreviation = "BAL",
+			Colors = {
+				Normal = {
+					Main = "#9C3BDF",
+					Light = "#B365E6"
+				},
+				Alternate = {
+					Main = "#040405",
+					Light = "#222223"
+				},
+				Endzone = "#9C3BDF",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFF866",
+						NumberStroke = "#040405",
+						Helmet = "#040405",
+						Jersey = "#9C3BDF",
+						Stripe = "#040405",
+						Pants = "#040405"
+					},
+					Away = {
+						NumberInner = "#9C3BDF",
+						NumberStroke = "#040405",
+						Helmet = "#9C3BDF",
+						Jersey = "#FFFFFF",
+						Stripe = "#9C3BDF",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "san francisco") then
 		return {
 			City = "San Francisco",

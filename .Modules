@@ -389,7 +389,7 @@ elseif (string.lower(teamName) == "providence") then
 				}
 			},
 		}
-	elseif (string.lower(teamName) == "baltimore") then
+elseif (string.lower(teamName) == "baltimore") then
 		return {
 			City = "Baltimore",
 			Name = "BALTIMORE",
@@ -397,7 +397,7 @@ elseif (string.lower(teamName) == "providence") then
 			Colors = {
 				Normal = {
 					Main = "#9C3BDF",
-					Light = "#B365E6"
+					Light = "#BA6EF1"
 				},
 				Alternate = {
 					Main = "#040405",
@@ -406,17 +406,17 @@ elseif (string.lower(teamName) == "providence") then
 				Endzone = "#9C3BDF",
 				Jersey = {
 					Home = {
-						NumberInner = "#FFF866",
+						NumberInner = "#FFFFFF",
 						NumberStroke = "#040405",
 						Helmet = "#040405",
 						Jersey = "#9C3BDF",
-						Stripe = "#040405",
+						Stripe = "#FFF866",
 						Pants = "#040405"
 					},
 					Away = {
 						NumberInner = "#9C3BDF",
 						NumberStroke = "#040405",
-						Helmet = "#9C3BDF",
+						Helmet = "#040405",
 						Jersey = "#FFFFFF",
 						Stripe = "#9C3BDF",
 						Pants = "#FFFFFF"

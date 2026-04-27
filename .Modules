@@ -1613,6 +1613,41 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "wilmington") then
+		return {
+			City = "Wilmington",
+			Name = "WILMINGTON",
+			Abbreviation = "WLM",
+			Colors = {
+				Normal = {
+					Main = "#8A36D5",
+					Light = "#A151EA"
+				},
+				Alternate = {
+					Main = "#FBD00B",
+					Light = "#FDE054"
+				},
+				Endzone = "#8A36D5",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#000000",
+						Helmet = "#8A36D5",
+						Jersey = "#8A36D5",
+						Stripe = "#FBD00B",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#8A36D5",
+						NumberStroke = "#000000",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#FBD00B",
+						Pants = "#8A36D5"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "rochester") then
 		return {
 			City = "Rochester",

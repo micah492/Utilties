@@ -623,6 +623,41 @@ elseif (string.lower(teamName) == "baltimore") then
 				}
 			},
 		}
+	elseif (nameLower == "flagstaff") then
+		return {
+			City = "Flagstaff",
+			Name = "FLAGSTAFF",
+			Abbreviation = "FLG",
+			Colors = {
+				Normal = {
+					Main = "#ab3156",
+					Light = "#df406f"
+				},
+				Alternate = {
+					Main = "#fed048",
+					Light = "#fff696"
+				},
+				Endzone = "#ab3156",
+				Jersey = {
+					Home = {
+						NumberInner = "#fed048",
+						NumberStroke = "#000000",
+						Helmet = "#ab3156",
+						Jersey = "#ab3156",
+						Stripe = "#fed048",
+						Pants = "#ab3156"
+					},
+					Away = {
+						NumberInner = "#ab3156",
+						NumberStroke = "#fed048",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#ab3156",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "fayetteville") then
         return {
             City = "Fayetteville",

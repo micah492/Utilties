@@ -641,7 +641,7 @@ elseif (string.lower(teamName) == "flagstaff") then
 				Jersey = {
 					Home = {
 						NumberInner = "#fed048",
-						NumberStroke = "#000000",
+						NumberStroke = "#FFFFFF",
 						Helmet = "#fed048",
 						Jersey = "#ab3156",
 						Stripe = "#fed048",

@@ -635,14 +635,14 @@ elseif (string.lower(teamName) == "flagstaff") then
 				},
 				Alternate = {
 					Main = "#fed048",
-					Light = "#fff696"
+					Light = "#fff65d"
 				},
 				Endzone = "#ab3156",
 				Jersey = {
 					Home = {
 						NumberInner = "#fed048",
 						NumberStroke = "#000000",
-						Helmet = "#ab3156",
+						Helmet = "#fed048",
 						Jersey = "#ab3156",
 						Stripe = "#fed048",
 						Pants = "#ab3156"

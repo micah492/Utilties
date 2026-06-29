@@ -650,7 +650,7 @@ elseif (string.lower(teamName) == "flagstaff") then
 					Away = {
 						NumberInner = "#ab3156",
 						NumberStroke = "#fed048",
-						Helmet = "#FFFFFF",
+						Helmet = "#ab3156",
 						Jersey = "#FFFFFF",
 						Stripe = "#ab3156",
 						Pants = "#FFFFFF"

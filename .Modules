@@ -623,7 +623,7 @@ elseif (string.lower(teamName) == "baltimore") then
 				}
 			},
 		}
-	elseif (nameLower == "flagstaff") then
+elseif (string.lower(teamName) == "flagstaff") then
 		return {
 			City = "Flagstaff",
 			Name = "FLAGSTAFF",

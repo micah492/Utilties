@@ -276,6 +276,41 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "lansing") then
+		return {
+			City = "Lansing",
+			Name = "LANSING",
+			Abbreviation = "LAN",
+			Colors = {
+				Normal = {
+					Main = "#489974",
+					Light = "#5ec796"
+				},
+				Alternate = {
+					Main = "#15271f",
+					Light = "#1c3327"
+				},
+				Endzone = "#489974",
+				Jersey = {
+					Home = {
+						NumberInner = "#15271f",
+						NumberStroke = "#e2eae6",
+						Helmet = "#15271f",
+						Jersey = "#489974",
+						Stripe = "#15271f",
+						Pants = "#489974"
+					},
+					Away = {
+						NumberInner = "#489974",
+						NumberStroke = "#15271f",
+						Helmet = "#489974",
+						Jersey = "#FFFFFF",
+						Stripe = "#489974",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 elseif (string.lower(teamName) == "providence") then
 		return {
 			City = "Providence",

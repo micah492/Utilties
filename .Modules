@@ -276,7 +276,7 @@ function module:GetTeam(teamName)
 				}
 			},
 		}
-	elseif (string.lower(teamName) == "lansing") then
+elseif (string.lower(teamName) == "lansing") then
 		return {
 			City = "Lansing",
 			Name = "LANSING",
@@ -293,11 +293,11 @@ function module:GetTeam(teamName)
 				Endzone = "#489974",
 				Jersey = {
 					Home = {
-						NumberInner = "#15271f",
-						NumberStroke = "#e2eae6",
+						NumberInner = "#e2eae6",
+						NumberStroke = "#15271f",
 						Helmet = "#15271f",
 						Jersey = "#489974",
-						Stripe = "#15271f",
+						Stripe = "#e2eae6",
 						Pants = "#489974"
 					},
 					Away = {

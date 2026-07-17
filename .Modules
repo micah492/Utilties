@@ -311,6 +311,41 @@ elseif (string.lower(teamName) == "lansing") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "newark") then
+		return {
+			City = "Newark",
+			Name = "NEWARK",
+			Abbreviation = "NEW",
+			Colors = {
+				Normal = {
+					Main = "#264b41",
+					Light = "#326255"
+				},
+				Alternate = {
+					Main = "#cfdbd8",
+					Light = "#f6ffff"
+				},
+				Endzone = "#264b41",
+				Jersey = {
+					Home = {
+						NumberInner = "#cfdbd8",
+						NumberStroke = "#264b41",
+						Helmet = "#cfdbd8",
+						Jersey = "#264b41",
+						Stripe = "#cfdbd8",
+						Pants = "#264b41"
+					},
+					Away = {
+						NumberInner = "#264b41",
+						NumberStroke = "#cfdbd8",
+						Helmet = "#264b41",
+						Jersey = "#FFFFFF",
+						Stripe = "#264b41",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 elseif (string.lower(teamName) == "providence") then
 		return {
 			City = "Providence",

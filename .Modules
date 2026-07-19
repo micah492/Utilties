@@ -2206,8 +2206,8 @@ elseif (string.lower(teamName) == "los angeles") then
 				Endzone = "#006f71",
 				Jersey = {
 					Home = {
-						NumberInner = "#111111",
-						NumberStroke = "#FFFFFF",
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#111111",
 						Helmet = "#006f71",
 						Jersey = "#006f71",
 						Stripe = "#111111",

@@ -2189,7 +2189,7 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}
-	elseif (string.lower(teamName) == "coastal carolina") then
+	elseif (string.lower(teamName) == "coastal") then
 		return {
 			City = "Coastal Carolina",
 			Name = "CHANTICLEERS",
@@ -2200,22 +2200,22 @@ elseif (string.lower(teamName) == "los angeles") then
 					Light = "#009d9f"
 				},
 				Alternate = {
-					Main = "#A27752",
-					Light = "#d39e72"
+					Main = "#111111",
+					Light = "#333333"
 				},
 				Endzone = "#006f71",
 				Jersey = {
 					Home = {
-						NumberInner = "#A27752",
-						NumberStroke = "#111111",
-						Helmet = "#A27752",
+						NumberInner = "#111111",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#006f71",
 						Jersey = "#006f71",
-						Stripe = "#A27752",
+						Stripe = "#111111",
 						Pants = "#006f71"
 					},
 					Away = {
 						NumberInner = "#006f71",
-						NumberStroke = "#A27752",
+						NumberStroke = "#111111",
 						Helmet = "#006f71",
 						Jersey = "#FFFFFF",
 						Stripe = "#006f71",

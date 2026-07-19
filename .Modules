@@ -2189,6 +2189,41 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "coastal carolina") then
+		return {
+			City = "Coastal Carolina",
+			Name = "CHANTICLEERS",
+			Abbreviation = "CCU",
+			Colors = {
+				Normal = {
+					Main = "#006f71",
+					Light = "#009d9f"
+				},
+				Alternate = {
+					Main = "#A27752",
+					Light = "#d39e72"
+				},
+				Endzone = "#006f71",
+				Jersey = {
+					Home = {
+						NumberInner = "#A27752",
+						NumberStroke = "#111111",
+						Helmet = "#A27752",
+						Jersey = "#006f71",
+						Stripe = "#A27752",
+						Pants = "#006f71"
+					},
+					Away = {
+						NumberInner = "#006f71",
+						NumberStroke = "#A27752",
+						Helmet = "#006f71",
+						Jersey = "#FFFFFF",
+						Stripe = "#006f71",
+						Pants = "#006f71"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "clemson") then
 		return {
 			City = "Clemson",

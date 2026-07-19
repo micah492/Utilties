@@ -2294,6 +2294,41 @@ elseif (string.lower(teamName) == "los angeles") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "miami") then
+		return {
+			City = "Miami",
+			Name = "HURRICANES",
+			Abbreviation = "MIA",
+			Colors = {
+				Normal = {
+					Main = "#F47321",
+					Light = "#ff8c42"
+				},
+				Alternate = {
+					Main = "#005030",
+					Light = "#007546"
+				},
+				Endzone = "#F47321",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#005030",
+						Helmet = "#FFFFFF",
+						Jersey = "#F47321",
+						Stripe = "#005030",
+						Pants = "#FFFFFF"
+					},
+					Away = {
+						NumberInner = "#005030",
+						NumberStroke = "#F47321",
+						Helmet = "#FFFFFF",
+						Jersey = "#FFFFFF",
+						Stripe = "#005030",
+						Pants = "#F47321"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "oklahoma state") then
 		return {
 			City = "Oklahoma State",

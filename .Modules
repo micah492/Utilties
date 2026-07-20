@@ -1354,16 +1354,16 @@ elseif (string.lower(teamName) == "oakland") then
 				Jersey = {
 					Home = {
 						NumberInner = "#ffd976",
-						NumberStroke = "#075aa0",
+						NumberStroke = "#001e41",
 						Helmet = "#075aa0",
-						Jersey = "#001e41",
+						Jersey = "#075aa0",
 						Stripe = "#f7b214",
-						Pants = "#001e41"
+						Pants = "#075aa0"
 					},
 					Away = {
 						NumberInner = "#001e41",
 						NumberStroke = "#f7b214",
-						Helmet = "#001e41",
+						Helmet = "#075aa0",
 						Jersey = "#FFFFFF",
 						Stripe = "#075aa0",
 						Pants = "#075aa0"

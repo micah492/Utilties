@@ -1308,30 +1308,30 @@ elseif (string.lower(teamName) == "detroit") then
 			Abbreviation = "GB",
 			Colors = {
 				Normal = {
-					Main = "#7bbb2c",
-					Light = "#94e339"
-				},
-				Alternate = {
 					Main = "#335226",
 					Light = "#4a7538"
 				},
-				Endzone = "#7bbb2c",
+				Alternate = {
+					Main = "#fcc501",
+					Light = "#ffda33"
+				},
+				Endzone = "#335226",
 				Jersey = {
 					Home = {
 						NumberInner = "#fcc501",
 						NumberStroke = "#335226",
-						Helmet = "#7bbb2c",
-						Jersey = "#7bbb2c",
-						Stripe = "#335226",
-						Pants = "#7bbb2c"
+						Helmet = "#335226",
+						Jersey = "#335226",
+						Stripe = "#fcc501",
+						Pants = "#335226"
 					},
 					Away = {
 						NumberInner = "#335226",
 						NumberStroke = "#fcc501",
-						Helmet = "#7bbb2c",
+						Helmet = "#335226",
 						Jersey = "#FFFFFF",
-						Stripe = "#7bbb2c",
-						Pants = "#7bbb2c"
+						Stripe = "#335226",
+						Pants = "#335226"
 					}
 				}
 			},

@@ -389,6 +389,41 @@ elseif (string.lower(teamName) == "providence") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "indianapolis") then
+		return {
+			City = "Indianapolis",
+			Name = "INDIANAPOLIS",
+			Abbreviation = "IND",
+			Colors = {
+				Normal = {
+					Main = "#0d284f",
+					Light = "#1b4d8c"
+				},
+				Alternate = {
+					Main = "#f9fbf8",
+					Light = "#ffffff"
+				},
+				Endzone = "#0d284f",
+				Jersey = {
+					Home = {
+						NumberInner = "#f9fbf8",
+						NumberStroke = "#0d284f",
+						Helmet = "#0d284f",
+						Jersey = "#0d284f",
+						Stripe = "#f9fbf8",
+						Pants = "#0d284f"
+					},
+					Away = {
+						NumberInner = "#0d284f",
+						NumberStroke = "#f9fbf8",
+						Helmet = "#0d284f",
+						Jersey = "#FFFFFF",
+						Stripe = "#0d284f",
+						Pants = "#0d284f"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "syracuse") then
 		return {
 			City = "Syracuse",

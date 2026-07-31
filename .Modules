@@ -1729,7 +1729,7 @@ elseif (string.lower(teamName) == "jacksonville") then
 					Home = {
 						NumberInner = "#FFFFFF",
 						NumberStroke = "#cca356",
-						Helmet = "#1d2335",
+						Helmet = "#0d7c82",
 						Jersey = "#1d2335",
 						Stripe = "#0d7c82",
 						Pants = "#1d2335"
@@ -1739,7 +1739,7 @@ elseif (string.lower(teamName) == "jacksonville") then
 						NumberStroke = "#cca356",
 						Helmet = "#0d7c82",
 						Jersey = "#FFFFFF",
-						Stripe = "#cca356",
+						Stripe = "#0d7c82",
 						Pants = "#FFFFFF"
 					}
 				}

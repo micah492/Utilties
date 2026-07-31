@@ -1718,29 +1718,29 @@ elseif (string.lower(teamName) == "jacksonville") then
 			Colors = {
 				Normal = {
 					Main = "#0d7c82",
-					Light = "#149da3"
+					Light = "#1d2335"
 				},
 				Alternate = {
 					Main = "#cca356",
-					Light = "#dfb96e"
+					Light = "#1d2335"
 				},
 				Endzone = "#0d7c82",
 				Jersey = {
 					Home = {
-						NumberInner = "#cca356",
-						NumberStroke = "#1d2335",
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#cca356",
 						Helmet = "#1d2335",
-						Jersey = "#0d7c82",
-						Stripe = "#cca356",
+						Jersey = "#1d2335",
+						Stripe = "#0d7c82",
 						Pants = "#1d2335"
 					},
 					Away = {
-						NumberInner = "#0d7c82",
-						NumberStroke = "#1d2335",
-						Helmet = "#1d2335",
+						NumberInner = "#1d2335",
+						NumberStroke = "#cca356",
+						Helmet = "#0d7c82",
 						Jersey = "#FFFFFF",
-						Stripe = "#0d7c82",
-						Pants = "#1d2335"
+						Stripe = "#cca356",
+						Pants = "#FFFFFF"
 					}
 				}
 			},

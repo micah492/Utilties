@@ -346,6 +346,41 @@ elseif (string.lower(teamName) == "lansing") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "las vegas") then
+		return {
+			City = "Las Vegas",
+			Name = "JOKERS",
+			Abbreviation = "LV",
+			Colors = {
+				Normal = {
+					Main = "#ad010d",
+					Light = "#c71a24"
+				},
+				Alternate = {
+					Main = "#e6ad2c",
+					Light = "#ffd45c"
+				},
+				Endzone = "#ad010d",
+				Jersey = {
+					Home = {
+						NumberInner = "#e6ad2c",
+						NumberStroke = "#0a0a0a",
+						Helmet = "#0a0a0a",
+						Jersey = "#ad010d",
+						Stripe = "#e6ad2c",
+						Pants = "#0a0a0a"
+					},
+					Away = {
+						NumberInner = "#ad010d",
+						NumberStroke = "#0a0a0a",
+						Helmet = "#0a0a0a",
+						Jersey = "#FFFFFF",
+						Stripe = "#ad010d",
+						Pants = "#0a0a0a"
+					}
+				}
+			},
+		}
 elseif (string.lower(teamName) == "providence") then
 		return {
 			City = "Providence",

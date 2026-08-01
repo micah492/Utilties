@@ -634,6 +634,41 @@ elseif (string.lower(teamName) == "baltimore") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "fort worth") then
+		return {
+			City = "Fort Worth",
+			Name = "FORT WORTH",
+			Abbreviation = "FTW",
+			Colors = {
+				Normal = {
+					Main = "#914fc5",
+					Light = "#a75be3"
+				},
+				Alternate = {
+					Main = "#a3a3a6",
+					Light = "#bbbbbf"
+				},
+				Endzone = "#914fc5",
+				Jersey = {
+					Home = {
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#a3a3a6",
+						Helmet = "#a3a3a6",
+						Jersey = "#914fc5",
+						Stripe = "#a3a3a6",
+						Pants = "#a3a3a6"
+					},
+					Away = {
+						NumberInner = "#914fc5",
+						NumberStroke = "#a3a3a6",
+						Helmet = "#914fc5",
+						Jersey = "#FFFFFF",
+						Stripe = "#914fc5",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 	elseif (string.lower(teamName) == "north car") then
 		return {
 			City = "North Carolina",

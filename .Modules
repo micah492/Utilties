@@ -1546,7 +1546,7 @@ elseif (string.lower(teamName) == "oakland") then
 				}
 			},
 		}	
-	elseif (string.lower(teamName) == "atlanta") then
+elseif (string.lower(teamName) == "atlanta") then
 		return {
 			City = "Atlanta",
 			Name = "ATLANTA",
@@ -1554,29 +1554,29 @@ elseif (string.lower(teamName) == "oakland") then
 			Colors = {
 				Normal = {
 					Main = "#e11943",
-					Light = "#f43962"
+					Light = "#161612"
 				},
 				Alternate = {
-					Main = "#161612",
-					Light = "#2e2e2b"
+					Main = "#b4bfcb",
+					Light = "#161612"
 				},
 				Endzone = "#e11943",
 				Jersey = {
 					Home = {
 						NumberInner = "#FFFFFF",
-						NumberStroke = "#e11943",
-						Helmet = "#e11943",
-						Jersey = "#000000",
-						Stripe = "#000000",
-						Pants = "#FFFFFF"
+						NumberStroke = "#b4bfcb",
+						Helmet = "#161612",
+						Jersey = "#161612",
+						Stripe = "#e11943",
+						Pants = "#161612"
 					},
 					Away = {
-						NumberInner = "#e11943",
-						NumberStroke = "#161612",
+						NumberInner = "#161612",
+						NumberStroke = "#b4bfcb",
 						Helmet = "#e11943",
 						Jersey = "#FFFFFF",
 						Stripe = "#e11943",
-						Pants = "#000000"
+						Pants = "#FFFFFF"
 					}
 				}
 			},

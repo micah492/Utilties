@@ -381,6 +381,41 @@ elseif (string.lower(teamName) == "lansing") then
 				}
 			},
 		}
+	elseif (string.lower(teamName) == "eugene") then
+		return {
+			City = "Eugene",
+			Name = "EUGENE",
+			Abbreviation = "EUG",
+			Colors = {
+				Normal = {
+					Main = "#2b7d5c",
+					Light = "#fbce14"
+				},
+				Alternate = {
+					Main = "#fbce14",
+					Light = "#2b7d5c"
+				},
+				Endzone = "#2b7d5c",
+				Jersey = {
+					Home = {
+						NumberInner = "#fbce14",
+						NumberStroke = "#FFFFFF",
+						Helmet = "#fbce14",
+						Jersey = "#2b7d5c",
+						Stripe = "#fbce14",
+						Pants = "#2b7d5c"
+					},
+					Away = {
+						NumberInner = "#2b7d5c",
+						NumberStroke = "#fbce14",
+						Helmet = "#2b7d5c",
+						Jersey = "#FFFFFF",
+						Stripe = "#2b7d5c",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
 elseif (string.lower(teamName) == "providence") then
 		return {
 			City = "Providence",

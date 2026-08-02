@@ -346,7 +346,7 @@ elseif (string.lower(teamName) == "lansing") then
 				}
 			},
 		}
-	elseif (string.lower(teamName) == "pittsburgh") then
+elseif (string.lower(teamName) == "pittsburgh") then
 		return {
 			City = "Pittsburgh",
 			Name = "PITTSBURGH",
@@ -363,20 +363,20 @@ elseif (string.lower(teamName) == "lansing") then
 				Endzone = "#f9ba24",
 				Jersey = {
 					Home = {
-						NumberInner = "#f9ba24",
-						NumberStroke = "#a7afa2",
-						Helmet = "#f9ba24",
-						Jersey = "#14181c",
-						Stripe = "#a7afa2",
-						Pants = "#a7afa2"
+						NumberInner = "#FFFFFF",
+						NumberStroke = "#14181c",
+						Helmet = "#14181c",
+						Jersey = "#f9ba24",
+						Stripe = "#14181c",
+						Pants = "#14181c"
 					},
 					Away = {
-						NumberInner = "#14181c",
-						NumberStroke = "#f9ba24",
-						Helmet = "#14181c",
+						NumberInner = "#f9ba24",
+						NumberStroke = "#14181c",
+						Helmet = "#f9ba24",
 						Jersey = "#FFFFFF",
-						Stripe = "#f9ba24",
-						Pants = "#FFFFFF"
+						Stripe = "#14181c",
+						Pants = "#14181c"
 					}
 				}
 			},

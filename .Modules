@@ -23,29 +23,29 @@ function module:GetTeam(teamName)
 			Colors = {
 				Normal = {
 					Main = "#f51931",
-					Light = "#B2000F"
+					Light = "#ff3b50"
 				},
 				Alternate = {
-					Main = "#f51931",
-					Light = "#2E2E2E"
+					Main = "#d98a1f",
+					Light = "#f4a332"
 				},
-				Endzone = "#000000",
+				Endzone = "#f51931",
 				Jersey = {
 					Home = {
 						NumberInner = "#FFFFFF",
 						NumberStroke = "#d98a1f",
 						Helmet = "#d98a1f",
 						Jersey = "#f51931",
-						Stripe = "#FFFFFF",
+						Stripe = "#d98a1f",
 						Pants = "#f51931"
 					},
 					Away = {
-						NumberInner = "#FFFFFF",
+						NumberInner = "#f51931",
 						NumberStroke = "#d98a1f",
 						Helmet = "#d98a1f",
-						Jersey = "#f51931",
-						Stripe = "#000000",
-						Pants = "#f51931"
+						Jersey = "#FFFFFF",
+						Stripe = "#f51931",
+						Pants = "#FFFFFF"
 					}
 				}
 			},
@@ -341,6 +341,41 @@ elseif (string.lower(teamName) == "lansing") then
 						Helmet = "#264b41",
 						Jersey = "#FFFFFF",
 						Stripe = "#264b41",
+						Pants = "#FFFFFF"
+					}
+				}
+			},
+		}
+	elseif (string.lower(teamName) == "pittsburgh") then
+		return {
+			City = "Pittsburgh",
+			Name = "PITTSBURGH",
+			Abbreviation = "PIT",
+			Colors = {
+				Normal = {
+					Main = "#f9ba24",
+					Light = "#ffd629"
+				},
+				Alternate = {
+					Main = "#14181c",
+					Light = "#171c20"
+				},
+				Endzone = "#f9ba24",
+				Jersey = {
+					Home = {
+						NumberInner = "#f9ba24",
+						NumberStroke = "#a7afa2",
+						Helmet = "#f9ba24",
+						Jersey = "#14181c",
+						Stripe = "#a7afa2",
+						Pants = "#a7afa2"
+					},
+					Away = {
+						NumberInner = "#14181c",
+						NumberStroke = "#f9ba24",
+						Helmet = "#14181c",
+						Jersey = "#FFFFFF",
+						Stripe = "#f9ba24",
 						Pants = "#FFFFFF"
 					}
 				}
